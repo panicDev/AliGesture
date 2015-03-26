@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hwdroid.app.MainViewHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/hw_action_bar_host"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/hw_content_view_background"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@id/hw_action_bar_content_view"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <hwdroid.widget.FooterBar.FooterBar
+        android:id="@id/hw_footer_bar"
+        android:layout_width="fill_parent"
+        style="@style/HWDroid.Widget.FooterBar"
+        android:orientation="vertical"
+        android:visibility="gone" />
+
+</hwdroid.app.MainViewHost>

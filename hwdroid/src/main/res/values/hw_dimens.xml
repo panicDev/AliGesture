@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="hw_drawable_width">40dp</dimen>
+    <dimen name="hw_drawable_height">40dp</dimen>
+    <dimen name="hw_drawable_margin">16dp</dimen>
+
+    <!-- actionbar -->
+    <dimen name="hw_action_bar_height">48dp</dimen>
+    <dimen name="hw_action_bar_margin_top">0dp</dimen>
+    <dimen name="hw_action_bar_margin_bottom">0dp</dimen>
+    <dimen name="hw_action_bar_margin_left">16dp</dimen>
+    <dimen name="hw_action_bar_margin_right">16dp</dimen>
+
+    <!-- normal actionbar -->
+    <dimen name="hw_action_bar_normal_left_min_width">70dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+
+    <!-- dropdown dialog -->
+    <dimen name="hw_dropdown_dialog_footer_bar_height">60dp</dimen>
+    <dimen name="hw_dropdown_dialog_divider_line_height">1px</dimen>
+
+    <!-- footer bar -->
+    <dimen name="hw_foooterbar_menu_textsize">10sp</dimen>
+    <dimen name="hw_foooterbar_button_textsize">16sp</dimen>
+    <dimen name="hw_footerbar_height">68dp</dimen>
+
+    <!-- footerbar button -->
+    <dimen name="hw_footerbar_button_padding_left">14dp</dimen>
+    <dimen name="hw_footerbar_button_padding_right">14dp</dimen>
+    <dimen name="hw_footerbar_button_margin_left">10dp</dimen>
+    <dimen name="hw_footerbar_button_margin_right">10dp</dimen>
+
+    <!-- footerbar menu -->
+    <dimen name="hw_footerbar_menu_item__half_margin">3dp</dimen>
+    <dimen name="hw_footerbar_menu_item_margin_top">6dp</dimen>
+    <dimen name="hw_footerbar_menu_item_margin_bottom">6dp</dimen>
+    <dimen name="hw_footerbar_menu_item_width">70dp</dimen>
+    <!-- dialog animation -->
+    <integer name="hw_dialog_animation_duration">200</integer>
+
+    <dimen name="hw_action_bar_search_view_offset">7dp</dimen>
+    <!-- NumberPicker -->
+    <integer name="hw_number_picker_text_size">22</integer>
+    <integer name="hw_number_picker_tip_size">13</integer>
+    <integer name="hw_number_picker_tip_offset">12</integer>
+</resources>

@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <style name="Widget.Ali.Button">
+        <item name="android:background">@drawable/hw_btn_default</item>
+        <item name="android:textAppearance">@style/TextAppearance.Ali.Widget.Button</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <!--
+        button text
+        <item name="android:textSize">@dimen/hw_button_text_size</item>
+        -->
+    </style>
+
+    <style name="Widget.Ali.Button.Small">
+        <item name="android:background">@drawable/hw_btn_default_small</item>
+        <item name="android:textAppearance">@style/TextAppearance.Ali.Widget.Button.Small</item>
+    </style>
+
+    <style name="Widget.Ali.Button.Inset" parent="android:style/Widget.Holo.Button.Inset"></style>
+
+    <style name="Widget.Ali.Button.Toggle" parent="@android:style/Widget.Holo.Button.Toggle">
+        <item name="android:textAppearance">@style/TextAppearance.Ali.Small</item>
+    </style>
+
+    <style name="Widget.Ali.Button.Dialog">
+        <item name="android:background">@drawable/hw_alert_dialog_btn_bar_bg</item>
+        <item name="android:minHeight">@dimen/hw_alert_dialog_button_bar_height</item>
+        <item name="android:textColor">@color/hw_dialog_cancel_button_text_color</item>
+    </style>
+
+    <style name="Widget.Ali.Button.Dialog.Left">
+        <item name="android:background">@drawable/hw_alert_dialog_btn_bg</item>
+        <item name="android:textColor">@color/hw_dialog_cancel_button_text_color</item>
+    </style>
+
+    <style name="Widget.Ali.Button.Dialog.Middle">
+        <item name="android:background">@drawable/hw_alert_dialog_btn_bg</item>
+        <item name="android:textColor">@color/hw_dialog_cancel_button_text_color</item>
+    </style>
+
+
+    <style name="Widget.Ali.Button.Dialog.Right">
+        <item name="android:background">@drawable/hw_alert_dialog_btn_bg</item>
+        <item name="android:textColor">@color/hw_dialog_ok_button_text_color</item>
+    </style>
+
+
+    <style name="Widget.Ali.TextView">
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textSelectHandleLeft">?android:attr/textSelectHandleLeft</item>
+        <item name="android:textSelectHandleRight">?android:attr/textSelectHandleRight</item>
+        <item name="android:textSelectHandle">?android:attr/textSelectHandle</item>
+        <item name="android:textEditPasteWindowLayout">?android:attr/textEditPasteWindowLayout
+        </item>
+        <item name="android:textEditNoPasteWindowLayout">?android:attr/textEditNoPasteWindowLayout
+        </item>
+        <item name="android:textEditSidePasteWindowLayout">
+            ?android:attr/textEditSidePasteWindowLayout
+        </item>
+        <item name="android:textEditSideNoPasteWindowLayout">
+            ?android:attr/textEditSideNoPasteWindowLayout
+        </item>
+        <item name="android:textEditSuggestionItemLayout">
+            ?android:attr/textEditSuggestionItemLayout
+        </item>
+        <item name="android:textCursorDrawable">?android:attr/textCursorDrawable</item>
+    </style>
+
+    <style name="Widget.Ali.CheckedTextView"></style>
+
+    <style name="Widget.Ali.EditText" parent="Widget.Ali.TextView">
+        <item name="android:background">@drawable/hw_edit_text</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">?android:attr/editTextColor</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="Widget.Ali.AutoCompleteTextView" parent="Widget.Ali.EditText">
+        <item name="android:completionHintView">@layout/hw_simple_dropdown_hint</item>
+        <item name="android:completionThreshold">2</item>
+        <item name="android:dropDownVerticalOffset">-6dip</item>
+        <item name="android:dropDownHorizontalOffset">0dip</item>
+        <item name="android:dropDownWidth">wrap_content</item>
+        <item name="android:dropDownSelector">@drawable/hw_list_selector_background</item>
+        <item name="android:popupBackground">@drawable/hw_menu_dropdown_panel</item>
+    </style>
+
+    <style name="Widget.Ali.CompoundButton">
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textAppearance">?android:attr/textAppearance</item>
+        <item name="android:textColor">?android:attr/textColorPrimaryDisableOnly</item>
+        <item name="android:gravity">center_vertical|start</item>
+    </style>
+
+    <style name="Widget.Ali.CompoundButton.CheckBox">
+        <item name="android:button">?android:attr/listChoiceIndicatorMultiple</item>
+    </style>
+
+    <style name="Widget.Ali.AbsListView">
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadingEdge">vertical</item>
+    </style>
+
+    <style name="Widget.Ali.ListView" parent="Widget.Ali.AbsListView">
+        <item name="android:background">@drawable/hw_listview_background</item>
+        <item name="android:divider">?android:attr/listDivider</item>
+        <item name="android:listSelector">?android:attr/listChoiceBackgroundIndicator</item>
+        <item name="android:cacheColorHint">?android:attr/colorBackgroundCacheHint</item>
+        <!-- <item name="android:scrollbarThumbVertical">@drawable/hw_list_divider</item> -->
+    </style>
+
+    <style name="Widget.Ali.ListView.White" parent="Widget.Ali.ListView"></style>
+
+    <style name="Widget.Ali.ListView.DropDown">
+        <item name="android:cacheColorHint">@null</item>
+        <!-- <item name="android:divider">?android:attr/listChoiceBackgroundIndicator</item> -->
+    </style>
+
+    <style name="Widget.Ali.ExpandableListView" parent="Widget.Ali.ListView">
+        <item name="android:groupIndicator">@drawable/hw_list_expander_group</item>
+        <item name="android:childDivider">@drawable/hw_list_divider</item>
+        <!--
+            indicatorLeft and indicatorRight's format is dimension,
+            but android hide these style in themes file.
+            We can write here for this style been derived from Ali.ListView other than android expandablelistview.
+        -->
+        <item name="android:indicatorLeft">?android:attr/expandableListPreferredItemIndicatorLeft
+        </item>
+        <item name="android:indicatorRight">
+            ?android:attr/expandableListPreferredItemIndicatorRight
+        </item>
+    </style>
+
+    <style name="Widget.Ali.GridView" parent="android:style/Widget.Holo.GridView"></style>
+
+    <style name="Widget.Ali.ImageButton" parent="android:style/Widget.Holo.ImageButton"></style>
+
+    <style name="Widget.Ali.PopupWindow" parent="android:style/Widget.Holo.PopupWindow"></style>
+
+    <style name="Widget.Ali.ProgressBar">
+        <item name="android:indeterminateOnly">true</item>
+        <!-- <item name="android:indeterminateDrawable">@android:drawable/progress_medium_white</item> -->
+        <item name="android:indeterminateDrawable">@anim/hw_progress_anim</item>
+        <item name="android:indeterminateBehavior">repeat</item>
+        <item name="android:indeterminateDuration">3500</item>
+        <item name="android:minWidth">@dimen/hw_progressbar_normal_min_width</item>
+        <item name="android:maxWidth">@dimen/hw_progressbar_normal_max_width</item>
+        <item name="android:minHeight">@dimen/hw_progressbar_normal_min_height</item>
+        <item name="android:maxHeight">@dimen/hw_progressbar_normal_max_height</item>
+        <!-- <item name="android:mirrorForRtl">false</item> -->
+    </style>
+
+    <style name="Widget.Ali.ProgressBar.Inverse">
+        <item name="android:indeterminateDrawable">@anim/hw_progress_inverse_anim</item>
+    </style>
+
+    <style name="Widget.Ali.ProgressBar.Large">
+        <item name="android:indeterminateDrawable">@anim/hw_progress_big_anim</item>
+        <item name="android:minWidth">@dimen/hw_progressbar_large_min_width</item>
+        <item name="android:maxWidth">@dimen/hw_progressbar_large_max_width</item>
+        <item name="android:minHeight">@dimen/hw_progressbar_large_min_height</item>
+        <item name="android:maxHeight">@dimen/hw_progressbar_large_max_height</item>
+    </style>
+
+    <style name="Widget.Ali.ProgressBar.Large.Inverse">
+        <item name="android:indeterminateDrawable">@anim/hw_progress_big_inverse_anim</item>
+    </style>
+
+    <style name="Widget.Ali.ProgressBar.Horizontal" parent="android:style/Widget.Holo.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/hw_progress_horizontal</item>
+        <item name="android:indeterminateDrawable">@drawable/hw_progress_indeterminate_horizontal
+        </item>
+        <item name="android:minHeight">@dimen/hw_progressbar_horizontal_min_height</item>
+        <item name="android:maxHeight">@dimen/hw_progressbar_horizontal_max_height</item>
+    </style>
+
+    <style name="Widget.Ali.ProgressBar.Small" parent="android:style/Widget.Holo.ProgressBar.Small"></style>
+
+    <style name="Widget.Ali.ProgressBar.Small.Title" parent="android:style/Widget.Holo.ProgressBar.Small.Title"></style>
+
+    <style name="Widget.Ali.SeekBar" parent="android:style/Widget.Holo.SeekBar">
+        <item name="android:minHeight">4dip</item>
+        <item name="android:maxHeight">4dip</item>
+        <item name="android:thumb">@drawable/hw_scrubber_control_selector</item>
+        <item name="android:progressDrawable">@drawable/hw_scrubber_progress_horizontal</item>
+        <item name="android:indeterminateDrawable">@drawable/hw_scrubber_progress_horizontal</item>
+    </style>
+
+    <style name="Widget.Ali.SeekBar.NoProColor" parent="android:style/Widget.Holo.SeekBar">
+        <item name="android:minHeight">4dip</item>
+        <item name="android:maxHeight">4dip</item>
+        <item name="android:thumb">@drawable/hw_scrubber_control_selector</item>
+        <item name="android:progressDrawable">@drawable/hw_scrubber_progress_horizontal_noprocolor
+        </item>
+        <item name="android:indeterminateDrawable">
+            @drawable/hw_scrubber_progress_horizontal_noprocolor
+        </item>
+    </style>
+
+    <style name="Widget.Ali.RatingBar" parent="android:style/Widget.Holo.RatingBar"></style>
+
+    <style name="Widget.Ali.RatingBar.Indicator" parent="android:style/Widget.Holo.RatingBar.Indicator"></style>
+
+    <style name="Widget.Ali.RatingBar.Small" parent="android:style/Widget.Holo.RatingBar.Small"></style>
+
+    <style name="Widget.Ali.CompoundButton.RadioButton" parent="android:style/Widget.Holo.CompoundButton.RadioButton"></style>
+
+    <style name="Widget.Ali.ScrollView" parent="android:style/Widget.Holo.ScrollView"></style>
+
+    <style name="Widget.Ali.HorizontalScrollView" parent="android:style/Widget.Holo.HorizontalScrollView"></style>
+
+    <style name="Widget.Ali.Spinner">
+        <item name="android:background">@drawable/hw_spinner_background</item>
+        <item name="android:clickable">true</item>
+        <item name="android:spinnerMode">dialog</item>
+        <item name="android:dropDownSelector">@drawable/hw_list_selector_background</item>
+        <item name="android:popupBackground">@drawable/hw_spinner_dropdown_bg</item>
+        <item name="android:dropDownVerticalOffset">0dip</item>
+        <item name="android:dropDownHorizontalOffset">0dip</item>
+        <item name="android:dropDownWidth">wrap_content</item>
+        <item name="android:gravity">start|center_vertical</item>
+    </style>
+
+    <style name="Widget.Ali.Spinner.DropDown">
+        <item name="android:spinnerMode">dropdown</item>
+    </style>
+
+    <style name="Widget.Ali.CompoundButton.Star" parent="android:style/Widget.Holo.CompoundButton.Star"></style>
+
+    <style name="Widget.Ali.TabWidget">
+        <item name="android:textAppearance">@style/TextAppearance.Ali.Widget.TabWidget</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:tabStripLeft">@drawable/hw_tab_unselected</item>
+        <item name="android:tabStripRight">@drawable/hw_tab_unselected</item>
+        <item name="android:tabStripEnabled">true</item>
+        <item name="android:divider">@null</item>
+        <item name="android:gravity">fill_horizontal|center_vertical</item>
+        <!--<item name="*android:tabLayout">@layout/hw_tab_indicator</item>-->
+    </style>
+
+    <style name="Widget.Ali.WebTextView" parent="android:style/Widget.Holo.WebTextView"></style>
+
+    <style name="Widget.Ali.WebView" parent="android:style/Widget.Holo.WebView"></style>
+
+    <style name="Widget.Ali.DropDownItem" parent="android:style/Widget.Holo.DropDownItem"></style>
+
+    <style name="Widget.Ali.DropDownItem.Spinner" parent="android:style/Widget.Holo.DropDownItem.Spinner"></style>
+
+    <style name="Widget.Ali.TextView.SpinnerItem" parent="android:style/Widget.Holo.TextView.SpinnerItem"></style>
+
+    <style name="Widget.Ali.ListPopupWindow">
+        <item name="android:dropDownSelector">@drawable/hw_list_selector_background</item>
+        <item name="android:popupBackground">@drawable/hw_spinner_dropdown_bg</item>
+        <item name="android:dropDownVerticalOffset">0dip</item>
+        <item name="android:dropDownHorizontalOffset">0dip</item>
+        <item name="android:dropDownWidth">match_parent</item>
+        <item name="android:divider">?android:attr/listChoiceBackgroundIndicator</item>
+    </style>
+
+    <style name="Widget.Ali.PopupMenu" parent="Widget.Ali.ListPopupWindow"></style>
+
+    <style name="Widget.Ali.ActionButton" parent="android:style/Widget.Holo.ActionButton"></style>
+
+    <style name="Widget.Ali.ActionButton.Overflow" parent="android:style/Widget.Holo.ActionButton.Overflow"></style>
+
+    <style name="Widget.Ali.ActionButton.TextButton" parent="android:style/Widget.Holo.ActionButton.TextButton"></style>
+
+    <style name="Widget.Ali.ActionMode" parent="android:style/Widget.Holo.ActionMode"></style>
+
+    <style name="Widget.Ali.ActionButton.CloseMode" parent="android:style/Widget.Holo.ActionButton.CloseMode"></style>
+
+    <style name="Widget.Ali.ActionBar" parent="android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@drawable/hw_actionbar_background_light</item>
+        <item name="android:backgroundSplit">@drawable/hw_actionbar_background_light</item>
+        <item name="android:backgroundStacked">@drawable/hw_actionbar_background_light</item>
+        <item name="android:displayOptions"></item>
+    </style>
+
+    <style name="Widget.Ali.Tab" parent="android:style/Widget.Holo.Tab">
+        <item name="android:background">@drawable/hw_tab_indicator</item>
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:minWidth">80dip</item>
+    </style>
+
+    <style name="Widget.Ali.CalendarView">
+        <item name="android:showWeekNumber">true</item>
+        <item name="android:minDate">01/01/1900</item>
+        <item name="android:maxDate">12/31/2100</item>
+        <item name="android:shownWeekCount">6</item>
+        <item name="android:selectedWeekBackgroundColor">#330099FF</item>
+        <item name="android:focusedMonthDateColor">#FFFFFFFF</item>
+        <item name="android:unfocusedMonthDateColor">#66FFFFFF</item>
+        <item name="android:weekNumberColor">#33FFFFFF</item>
+        <item name="android:weekSeparatorLineColor">#19FFFFFF</item>
+        <item name="android:selectedDateVerticalBar">@drawable/hw_list_divider</item>
+        <item name="android:weekDayTextAppearance">
+            @style/TextAppearance.Ali.Small.CalendarViewWeekDayView
+        </item>
+        <item name="android:dateTextAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+
+    <style name="Widget.Ali.DatePicker">
+        <!--<item name="*android:internalLayout">@layout/hw_date_picker</item>-->
+        <item name="android:calendarViewShown">false</item>
+    </style>
+
+    <style name="Widget.Ali.NumberPicker">
+        <item name="android:solidColor">@android:color/transparent</item>
+        <!--<item name="*android:internalLayout">@layout/hw_number_picker_with_selector_wheel</item>-->
+        <!--<item name="*android:selectionDivider">@drawable/hw_numberpicker_selection_divider</item>-->
+        <!--<item name="*android:selectionDividerHeight">1dip</item>-->
+        <!--<item name="*android:selectionDividersDistance">76dip</item>-->
+        <!--<item name="*android:internalMinWidth">70dip</item>-->
+        <!--<item name="*android:internalMaxHeight">180dip</item>-->
+        <!--<item name="*android:virtualButtonPressedDrawable">?android:attr/selectableItemBackground</item>-->
+    </style>
+
+    <style name="Widget.Ali.TimePicker">
+        <!--<item name="*android:internalLayout">@layout/hw_time_picker</item>-->
+
+    </style>
+
+    <style name="Widget.Ali.ActionBar.TabView" parent="android:style/Widget.Holo.ActionBar.TabView"></style>
+
+    <style name="Widget.Ali.ActionBar.TabText" parent="android:style/Widget.Holo.ActionBar.TabText"></style>
+
+    <style name="Widget.Ali.ActionBar.TabBar" parent="android:style/Widget.Holo.ActionBar.TabBar"></style>
+
+    <style name="Widget.Ali.ActionBar.Solid" parent="android:style/Widget.Holo.ActionBar.Solid"></style>
+
+    <style name="Widget.Ali.Button.Borderless" parent="android:style/Widget.Holo.Button.Borderless"></style>
+
+    <style name="Widget.Ali.Button.Borderless.Small" parent="android:style/Widget.Holo.Button.Borderless.Small"></style>
+
+    <style name="Widget.Ali.CompoundButton.Switch">
+        <item name="android:track">@drawable/hw_switch_track</item>
+        <item name="android:thumb">@drawable/hw_switch_inner</item>
+        <item name="android:textOn">""</item>
+        <item name="android:textOff">""</item>
+        <item name="android:thumbTextPadding">12dip</item>
+        <item name="android:switchMinWidth">46dip</item>
+        <item name="android:switchPadding">16dip</item>
+    </style>
+
+    <style name="PreferencePanel.Ali"></style>
+
+    <!--
+         The attributes are overridden here because the x-large or large resources may have
+         changed the margins and background in the parent PreferencePanel style.
+    -->
+    <style name="PreferencePanel.Ali.Dialog">
+        <item name="android:layout_marginStart">0dip</item>
+        <item name="android:layout_marginEnd">0dip</item>
+        <item name="android:layout_marginTop">0dip</item>
+        <item name="android:layout_marginBottom">0dip</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="TextAppearance.Ali.Inverse">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+        <item name="android:textColorHint">?android:textColorHintInverse</item>
+        <item name="android:textColorHighlight">?android:textColorHighlightInverse</item>
+        <item name="android:textColorLink">?android:textColorLinkInverse</item>
+    </style>
+
+    <style name="TextAppearance.Ali.Large">
+        <item name="android:textSize">@dimen/hw_textAppearance_large_textSize</item>
+    </style>
+
+    <style name="TextAppearance.Ali.Large.Inverse">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+        <item name="android:textColorHint">?android:textColorHintInverse</item>
+        <item name="android:textColorHighlight">?android:textColorHighlightInverse</item>
+        <item name="android:textColorLink">?android:textColorLinkInverse</item>
+    </style>
+
+    <style name="TextAppearance.Ali.Medium">
+        <item name="android:textSize">@dimen/hw_textAppearance_medium_textSize</item>
+    </style>
+
+    <style name="TextAppearance.Ali.Medium.Inverse">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+        <item name="android:textColorHint">?android:textColorHintInverse</item>
+        <item name="android:textColorHighlight">?android:textColorHighlightInverse</item>
+        <item name="android:textColorLink">?android:textColorLinkInverse</item>
+    </style>
+
+    <style name="TextAppearance.Ali.Small">
+        <item name="android:textSize">@dimen/hw_textAppearance_small_textSize</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="TextAppearance.Ali.Small.Inverse">
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="android:textColorHint">?android:textColorHintInverse</item>
+        <item name="android:textColorHighlight">?android:textColorHighlightInverse</item>
+        <item name="android:textColorLink">?android:textColorLinkInverse</item>
+    </style>
+
+    <style name="TextAppearance.Ali.Widget">
+        <item name="android:textColorHighlight">#FFFF9200</item>
+        <item name="android:textColorHint">?android:textColorHint</item>
+        <item name="android:textColorLink">#0044CC</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textSize">@dimen/hw_textAppearance_textSize</item>
+    </style>
+
+    <style name="TextAppearance.Ali.Dialog.Title" parent="@style/TextAppearance.Ali.Medium"></style>
+
+
+    <style name="TextAppearance.Ali.Dialog.OKBtn" parent="@style/TextAppearance.Ali.Medium">
+
+    </style>
+
+    <style name="TextAppearance.Ali.Dialog.CancelBtn" parent="@style/TextAppearance.Ali.Medium">
+
+    </style>
+
+    <style name="TextAppearance.Ali.Small.CalendarViewWeekDayView">
+        <item name="android:textColor">#e60000</item>
+    </style>
+
+    <style name="TextAppearance.Ali.Widget.Preference">
+        <item name="android:textColorHighlight">#FFFF9200</item>
+        <item name="android:textColorHint">?android:textColorHint</item>
+        <item name="android:textColorLink">#0044CC</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textSize">@dimen/hw_textAppearance_textSize</item>
+    </style>
+
+    <style name="TextAppearance.Ali.Widget.Preference.Summary" parent="@style/TextAppearance.Ali.Small.Inverse"></style>
+
+    <style name="TextAppearance.Ali.Widget.Preference.Title" parent="@style/TextAppearance.Ali.Medium"></style>
+
+    <style name="TextAppearance.Ali.SearchResult.Title" parent="android:style/TextAppearance.Holo.SearchResult.Title">
+        <item name="android:textSize">@dimen/hw_textAppearance_searchResult_title_textSize</item>
+    </style>
+
+    <style name="TextAppearance.Ali.SearchResult.Subtitle" parent="android:style/TextAppearance.Holo.SearchResult.Subtitle">
+        <item name="android:textSize">@dimen/hw_textAppearance_searchResult_subtitle_textSize</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="Widget.Ali.PreferenceCategory"></style>
+
+    <style name="Widget.Ali.PreferenceCategory.TextView"></style>
+
+    <!-- Preference Widget -->
+    <style name="Widget.Ali.PreferenceCategory.TextView.ListSeparator">
+        <item name="android:background">@drawable/hw_list_divider_vice</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">?android:attr/listPreferredItemPaddingLeft</item>
+        <item name="android:paddingRight">?android:attr/listPreferredItemPaddingRight</item>
+        <item name="android:paddingStart">?android:attr/listPreferredItemPaddingLeft</item>
+        <item name="android:paddingEnd">?android:attr/listPreferredItemPaddingRight</item>
+    </style>
+
+    <style name="TextAppearance.Ali.Widget.Button">
+        <item name="android:textColor">@color/hw_button_text_color</item>
+        <item name="android:textSize">@dimen/hw_textAppearance_medium_textSize</item>
+    </style>
+
+    <style name="TextAppearance.Ali.Widget.Button.Small">
+        <item name="android:textSize">@dimen/hw_textAppearance_small_textSize</item>
+    </style>
+
+    <style name="TextAppearance.Ali.Widget.IconMenu.Item" parent="android:style/TextAppearance.Holo.Widget.IconMenu.Item"></style>
+
+    <style name="TextAppearance.Ali.Widget.TabWidget">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/hw_tab_indicator_text</item>
+    </style>
+
+    <style name="TextAppearance.Ali.Widget.TextView" parent="android:style/TextAppearance.Holo.Widget.TextView">
+        <item name="android:textColor">?android:textColorPrimaryDisableOnly</item>
+        <item name="android:textColorHint">?android:textColorHint</item>
+    </style>
+
+    <style name="TextAppearance.Ali.Widget.TextView.PopupMenu" parent="android:style/TextAppearance.Holo.Widget.TextView.PopupMenu"></style>
+
+    <style name="TextAppearance.Ali.Widget.DropDownHint" parent="android:style/TextAppearance.Holo.Widget.DropDownHint"></style>
+
+    <style name="TextAppearance.Ali.Widget.DropDownItem" parent="android:style/TextAppearance.Holo.Widget.DropDownItem"></style>
+
+    <style name="TextAppearance.Ali.Widget.TextView.SpinnerItem" parent="android:style/TextAppearance.Holo.Widget.TextView.SpinnerItem"></style>
+
+    <style name="TextAppearance.Ali.Widget.EditText" parent="android:style/TextAppearance.Holo.Widget.EditText">
+        <item name="android:textColor">@color/hw_widget_edittext_dark</item>
+        <item name="android:textColorHint">@color/hw_hint_foreground_light</item>
+    </style>
+
+    <style name="TextAppearance.Ali.Widget.PopupMenu" parent="android:style/TextAppearance.Holo.Widget.PopupMenu">
+        <item name="android:textColor">@color/hw_primary_text_light</item>
+        <item name="android:textColorHint">@color/hw_hint_foreground_light</item>
+        <item name="android:textColorHighlight">@color/hw_highlighted_text_light</item>
+        <item name="android:textColorLink">@color/hw_link_text_light</item>
+    </style>
+
+    <style name="TextAppearance.Ali.Widget.PopupMenu.Large" parent="android:style/TextAppearance.Holo.Widget.PopupMenu.Large">
+        <item name="android:textSize">@dimen/hw_textAppearance_popupMenu_large_textSize</item>
+    </style>
+
+    <style name="TextAppearance.Ali.Widget.PopupMenu.Small" parent="android:style/TextAppearance.Holo.Widget.PopupMenu.Small">
+        <item name="android:textSize">@dimen/hw_textAppearance_popupMenu_small_textSize</item>
+        <item name="android:textColor">@color/hw_secondary_text_light</item>
+    </style>
+
+    <style name="TextAppearance.Ali.Widget.ActionBar.Title" parent="android:style/TextAppearance.Holo.Widget.ActionBar.Title"></style>
+
+    <style name="TextAppearance.Ali.Widget.ActionBar.Subtitle" parent="android:style/TextAppearance.Holo.Widget.ActionBar.Subtitle"></style>
+
+    <style name="TextAppearance.Ali.Widget.ActionMode.Title" parent="android:style/TextAppearance.Holo.Widget.ActionMode.Title"></style>
+
+    <style name="TextAppearance.Ali.Widget.ActionMode.Subtitle" parent="android:style/TextAppearance.Holo.Widget.ActionMode.Subtitle"></style>
+
+    <style name="TextAppearance.Ali.WindowTitle"></style>
+
+    <style name="TextAppearance.Ali.DialogWindowTitle">
+        <item name="android:textSize">@dimen/hw_textAppearance_medium_textSize</item>
+        <item name="android:textColor">@color/hw_dim_foreground_dark_disabled</item>
+    </style>
+
+    <style name="TextAppearance.Ali.Widget.ActionBar.Title.Inverse" parent="android:style/TextAppearance.Holo.Widget.ActionBar.Title.Inverse"></style>
+
+    <style name="TextAppearance.Ali.Widget.ActionBar.Subtitle.Inverse" parent="android:style/TextAppearance.Holo.Widget.ActionBar.Subtitle.Inverse"></style>
+
+    <style name="TextAppearance.Ali.Widget.ActionMode.Title.Inverse" parent="android:style/TextAppearance.Holo.Widget.ActionMode.Title.Inverse"></style>
+
+    <style name="TextAppearance.Ali.Widget.ActionMode.Subtitle.Inverse" parent="android:style/TextAppearance.Holo.Widget.ActionMode.Subtitle.Inverse"></style>
+
+    <style name="TextAppearance.Ali.Widget.ActionBar.Menu" parent="android:style/TextAppearance.Holo.Widget.ActionBar.Menu"></style>
+
+    <!-- Begin Preference styles -->
+    <style name="Preference.Ali">
+        <item name="android:layout">@layout/hw_common_preference</item>
+    </style>
+
+    <style name="Preference.Ali.Category">
+        <item name="android:layout">@layout/hw_common_preference_category</item>
+        <item name="android:shouldDisableView">false</item>
+        <item name="android:selectable">false</item>
+    </style>
+
+    <style name="HWPreferenceFragmentList">
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:paddingEnd">0dp</item>
+    </style>
+
+    <style name="Preference.Ali.CheckBoxPreference">
+        <item name="android:widgetLayout">@layout/hw_common_preference_widget_checkbox</item>
+    </style>
+
+    <style name="Preference.Ali.DialogPreference">
+        <item name="android:positiveButtonText">@android:string/ok</item>
+        <item name="android:negativeButtonText">@android:string/cancel</item>
+    </style>
+
+    <style name="Preference.Ali.DialogPreference.EditTextPreference">
+        <item name="android:dialogLayout">@layout/hw_common_preference_dialog_edittext</item>
+    </style>
+
+    <style name="Preference.Ali.DialogPreference.YesNoPreference">
+        <item name="android:positiveButtonText">@android:string/yes</item>
+        <item name="android:negativeButtonText">@android:string/no</item>
+    </style>
+
+    <style name="Preference.Ali.Information">
+        <item name="android:layout">@layout/hw_common_preference_information</item>
+        <item name="android:enabled">false</item>
+        <item name="android:shouldDisableView">false</item>
+    </style>
+
+    <style name="Preference.Ali.RingtonePreference">
+        <item name="android:ringtoneType">ringtone</item>
+        <item name="android:showSilent">true</item>
+        <item name="android:showDefault">true</item>
+    </style>
+
+    <style name="Preference.Ali.SwitchPreference">
+        <item name="android:widgetLayout">@layout/hw_common_preference_widget_switch</item>
+        <item name="android:switchTextOn">""</item>
+        <item name="android:switchTextOff">""</item>
+    </style>
+
+    <style name="Preference.Ali.PreferenceScreen"></style>
+
+    <!--
+    <style name="Animation.Ali.Dialog" parent="android:style/Animation.Holo.Dialog">
+
+    </style>
+    -->
+
+    <style name="DialogWindowTitle"></style>
+
+    <style name="DialogWindowTitle.Ali">
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:textAppearance">@style/TextAppearance.Ali.DialogWindowTitle</item>
+    </style>
+
+    <style name="WindowTitle"></style>
+
+    <!--  WindowTitle Styles -->
+    <style name="WindowTitle.Ali">
+        <item name="android:singleLine">true</item>
+        <item name="android:textAppearance">@style/TextAppearance.Ali.WindowTitle</item>
+    </style>
+
+    <style name="WindowTitleBackground"></style>
+
+    <style name="WindowTitleBackground.Ali">
+
+    </style>
+
+    <!-- Other Styles -->
+    <style name="Ali"></style>
+
+    <style name="Ali.ButtonBar">
+        <item name="android:paddingTop">0dip</item>
+        <item name="android:paddingLeft">0dip</item>
+        <item name="android:paddingRight">0dip</item>
+        <item name="android:paddingStart">0dip</item>
+        <item name="android:paddingEnd">0dip</item>
+        <item name="android:paddingBottom">0dip</item>
+        <item name="android:divider">?android:attr/dividerVertical</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:dividerPadding">12dip</item>
+        <item name="android:background">@drawable/hw_btn_dialog</item>
+    </style>
+
+    <style name="Ali.ButtonBar.AlertDialog">
+        <item name="android:dividerPadding">0dp</item>
+    </style>
+
+    <style name="Ali.SegmentedButton" parent="android:style/Holo.SegmentedButton"></style>
+
+    <style name="Animation.Ali"></style>
+
+
+    <!--
+
+    <style name="PreferencePanel" >
+        </style>
+    <style name="Preference">
+        </style>
+        <style name="AlertDialog" >
+        </style>
+        <style name="Animation" />
+-->
+
+    <style name="PreferencePanel" parent="*android:PreferencePanel"></style>
+
+    <style name="Preference" parent="*android:Preference"></style>
+
+    <style name="AlertDialog" parent="*android:AlertDialog"></style>
+
+    <style name="Animation" parent="*android:Animation" />
+
+    <style name="Widget.Ali" parent="android:Widget">
+        <item name="android:textAppearance">@style/TextAppearance.Ali</item>
+    </style>
+
+    <style name="TextAppearance.Ali" parent="android:TextAppearance">
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColorHighlight">?android:textColorHighlight</item>
+        <item name="android:textColorHint">?android:textColorHint</item>
+        <item name="android:textColorLink">?android:textColorLink</item>
+        <item name="android:textSize">@dimen/hw_textAppearance_textSize</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="AlertDialog.Ali">
+        <!--        <item name="android:fullDark">@android:color/transparent</item>
+                <item name="android:topDark">@android:color/transparent</item>
+                <item name="android:centerDark">@android:color/transparent</item>
+                <item name="android:bottomDark">@android:color/transparent</item>
+                <item name="android:fullBright">@android:color/transparent</item>
+                <item name="android:topBright">@android:color/transparent</item>
+                <item name="android:centerBright">@android:color/transparent</item>
+                <item name="android:bottomBright">@android:color/transparent</item>
+                <item name="android:bottomMedium">@android:color/transparent</item>
+                <item name="android:centerMedium">@android:color/transparent</item>
+                 <item name="*android:layout">@layout/hw_alert_dialog_holo</item>
+                <item name="*android:listLayout">@layout/hw_select_dialog_holo</item>
+                <item name="*android:progressLayout">@layout/hw_progress_dialog_holo</item>
+                <item name="*android:horizontalProgressLayout">@layout/hw_alert_dialog_progress_holo</item>
+                <item name="*android:listItemLayout">@layout/hw_select_dialog_item_holo</item>
+                <item name="*android:multiChoiceItemLayout">@layout/hw_select_dialog_multichoice_holo</item>
+                <item name="*android:singleChoiceItemLayout">@layout/hw_select_dialog_singlechoice_holo</item> -->
+        <item name="android:fullDark">@drawable/hw_screen_background_light</item>
+        <item name="android:topDark">@drawable/hw_dialog_top</item>
+        <item name="android:centerDark">@drawable/hw_screen_background_light</item>
+        <item name="android:bottomDark">@drawable/hw_dialog_bottom</item>
+        <item name="android:fullBright">@drawable/hw_screen_background_light</item>
+        <item name="android:topBright">@drawable/hw_dialog_top</item>
+        <item name="android:centerBright">@drawable/hw_screen_background_light</item>
+        <item name="android:bottomBright">@drawable/hw_dialog_bottom</item>
+        <item name="android:bottomMedium">@drawable/hw_dialog_bottom</item>
+        <item name="android:centerMedium">@drawable/hw_screen_background_light</item>
+
+    </style>
+
+    <style name="AlertDialog.Ali.Title">
+        <item name="*android:layout">@layout/hw_alert_dialog_black_title</item>
+    </style>
+
+    <style name="Animation.Ali.Dialog">
+        <item name="android:windowEnterAnimation">@anim/hw_push_up_in</item>
+        <item name="android:windowExitAnimation">@anim/hw_push_up_out</item>
+    </style>
+
+    <style name="Animation.Ali.VolumePanel">
+
+        <item name="android:windowEnterAnimation">@*android:anim/push_down_in</item>
+        <item name="android:windowExitAnimation">@*android:anim/push_up_out</item>
+
+    </style>
+</resources>

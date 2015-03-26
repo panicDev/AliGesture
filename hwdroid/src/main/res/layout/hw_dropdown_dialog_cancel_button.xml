@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.Ali.Button.Dialog.Left"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="start"
+    android:layout_marginLeft="6dp"
+    android:layout_marginStart="6dp"
+    android:layout_weight="1"
+    android:ellipsize="end"
+    android:minHeight="@dimen/hw_alert_dialog_button_bar_height"
+    android:singleLine="true" />

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- screen background color -->
+    <drawable name="hw_screen_background_light">#ffffff</drawable>
+    <!-- android's actionbar background. not actionbarview. -->
+    <drawable name="hw_actionbar_background_light">#00000000</drawable>
+
+    <drawable name="hw_action_bar_divider">#81b600</drawable>
+    <drawable name="hw_dialog_button_normal">#ffffff</drawable>
+    <drawable name="hw_dialog_button_pressed">#f2f2f2</drawable>
+    <drawable name="hw_dialog_button_disabled">#cacaca</drawable>
+    <drawable name="hw_menu_dropdown_panel">#FFF</drawable>
+    <drawable name="hw_preview_logo_icon_default">#00000000</drawable>
+
+    <!-- common button text color -->
+    <color name="hw_large_button_text_color_pressed">#333333</color>
+    <color name="hw_large_button_text_color_normal">#333333</color>
+    <color name="hw_large_button_text_color_disable">#333333</color>
+    <color name="hw_small_button_text_color_pressed">#333333</color>
+    <color name="hw_small_button_text_color_normal">#333333</color>
+    <color name="hw_small_button_text_color_disable">#333333</color>
+    <color name="hw_positive_button_text_color_pressed">#333333</color>
+    <color name="hw_positive_button_text_color_normal">#333333</color>
+    <color name="hw_positive_button_text_color_disable">#333333</color>
+    <color name="hw_positive1_button_text_color_pressed">#333333</color>
+    <color name="hw_positive1_button_text_color_normal">#333333</color>
+    <color name="hw_positive1_button_text_color_disable">#333333</color>
+
+    <!-- primary colors for preferences -->
+    <color name="hw_common_black">#FF000000</color>
+    <color name="hw_common_darkgray">#FF3B3B3B</color>
+    <color name="hw_common_gray">#FF5B5B5B</color>
+    <color name="hw_common_midgray">#333333</color>
+    <color name="hw_common_white">#333333</color>
+    <color name="hw_common_orange">#FFFF6F00</color>
+    <color name="hw_common_red">#FFDF4E31</color>
+    <color name="hw_common_green">#FF009515</color>
+    <color name="hw_common_blue">#FF0044CC</color>
+    <color name="hw_common_lightgray">#FFF2F4F5</color>
+    <color name="hw_common_bg_white">#FFFFFFFF</color>
+    <color name="hw_common_bg_orange">#FFFFF29C</color>
+    <color name="hw_common_bg_black">#FF605E61</color>
+    <color name="hw_common_bg_60_precent_black">#99111111</color>
+    <color name="hw_common_bg_grey">#FFF1F2F3</color>
+    <color name="hw_common_bg_color_dark">#FF333333</color>
+    <color name="hw_common_bg_black_2">#FF202020</color>
+    <color name="hw_common_primary_txt_color_black">#333333</color>
+    <color name="hw_common_primary_txt_color_black_light">#FF7d7d7d</color>
+    <color name="hw_common_primary_txt_color_white">#333333</color>
+    <color name="hw_common_caution_color_red">#FFCA2323</color>
+    <color name="hw_common_caution_color_red_light">#FFde8c8c</color>
+    <color name="hw_common_positive_color_green">#FF339933</color>
+    <color name="hw_common_positive_color_green_light">#FF8cbf8c</color>
+    <color name="hw_common_active_color_orange">#FFFF8000</color>
+    <color name="hw_common_active_color_orange_light">#FFffb07d</color>
+    <color name="hw_common_tip_txt_color_blue">#FF365577</color>
+    <color name="hw_common_secondary_txt_color_grey">#FF808080</color>
+    <color name="hw_common_notice_txt_color_white">#FFFFFFFF</color>
+    <color name="hw_common_vertical_line_color">#FFD0D4D8</color>
+    <color name="hw_common_transparent">#00000000</color>
+    <color name="hw_common_network_mask">#80000000</color>
+    <!-- End for preferences -->
+
+    <color name="hw_listview_background">#00FFFFFF</color>
+    <color name="hw_listview_normal_color">#00000000</color>
+    <color name="hw_listview_pressed_color">#f2f2f2</color>
+    <color name="hw_listview_hint_color">#E6E6FA</color>
+
+    <!-- button background color -->
+    <color name="hw_button_color_pressed">#ff0000</color>
+    <color name="hw_button_color_normal">#00ff00</color>
+    <color name="hw_button_color_disable">#0000ff</color>
+
+    <!-- Text Appearances -->
+    <color name="hw_background_dark">#333333</color>
+    <color name="hw_background_light">#333333</color>
+    <color name="hw_bright_foreground_light">@color/hw_background_dark</color>
+    <color name="hw_bright_foreground_light_disabled">#999999</color>
+    <color name="hw_bright_foreground_light_pressed">#FFF</color>
+    <color name="hw_highlighted_text_light">#333333</color>
+    <color name="hw_highlighted_text_dark">#333333</color>
+    <color name="hw_hint_foreground_dark">#66333333</color>
+    <color name="hw_hint_foreground_light">#66333333</color>
+    <color name="hw_link_text_light">#52b800</color>
+    <color name="hw_link_text_dark">#52b800</color>
+    <color name="hw_dim_foreground_dark_disabled">#808080</color>
+    <color name="hw_dim_foreground_dark_inverse_disabled">#808080</color>
+    <color name="hw_dim_foreground_dark_inverse">#808080</color>
+    <color name="hw_bright_foreground_dark_inverse">#808080</color>
+    <color name="hw_dim_foreground_dark">#808080</color>
+    <color name="hw_dim_foreground_light_disabled">#999999</color>
+    <color name="hw_dim_foreground_light">#323232</color>
+    <color name="hw_bright_foreground_dark_disabled">#999999</color>
+    <color name="hw_bright_foreground_dark">@color/hw_background_light</color>
+    <color name="hw_edit_text_background">#ffffffff</color>
+    <!-- dialog button text appearances -->
+    <color name="hw_dialog_title_text">#333333</color>
+    <color name="hw_dialog_cancel_button_text">#333333</color>
+    <color name="hw_dialog_cancel_button_text_disable">#66333333</color>
+    <color name="hw_dialog_ok_button_text">#52b800</color>
+    <color name="hw_dialog_ok_button_text_disable">#6652b800</color>
+
+    <!-- footer menu text appearances -->
+    <color name="hw_footerbar_menu_text_normal_color">#333333</color>
+    <color name="hw_footerbar_menu_text_selected_color">#999999</color>
+    <!-- footer  button text appearances -->
+    <color name="hw_footerbar_button_text_normal_color">#333333</color>
+    <color name="hw_footerbar_button_text_disable_color">#bfbfbf</color>
+    <color name="hw_footerbar_button_text_selected_color">#999999</color>
+</resources>

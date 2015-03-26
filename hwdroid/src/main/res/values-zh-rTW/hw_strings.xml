@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="hw_more">更多</string>
+    <string name="hw_year">年</string>
+    <string name="hw_month">月</string>
+    <string name="hw_day">日</string>
+    <string name="hw_hour">時</string>
+    <string name="hw_minute">分</string>
+    <string name="hw_search_view_cancel">取消</string>
+
+</resources>

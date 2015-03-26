@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="hw_more">More</string>
+    <string name="hw_year">Y</string>
+    <string name="hw_month">M</string>
+    <string name="hw_day">D</string>
+    <string name="hw_hour">H</string>
+    <string name="hw_minute">M</string>
+    <string name="hw_search_view_cancel">Cancel</string>
+
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Switch xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/switchWidget"
+    style="@style/Widget.Ali.CompoundButton.Switch"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:focusable="false" /><!--
+<Switch xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+android:id/switchWidget"
+    style="@style/Widget.Ali.CompoundButton.Switch"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:focusable="false"/>
+-->

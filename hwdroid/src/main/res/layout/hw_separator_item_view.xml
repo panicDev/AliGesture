@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hwdroid.widget.itemview.SeparatorItemView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/hw_separator_text"
+    style="?android:attr/listSeparatorTextViewStyle"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp" />

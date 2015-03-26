@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/hw_pop_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/hw_alert_dialog_background">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:id="@id/hw_dialog_title_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@id/hw_dialog_title_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/hw_dialog_title_text"
+                android:minHeight="50dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/hw_dropdown_dialog_divider_line_height"
+                android:layout_below="@id/hw_dialog_title_text"
+                android:background="@drawable/hw_list_divider" />
+        </RelativeLayout>
+
+        <FrameLayout
+            android:id="@id/hw_dialog_custom_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="50dp"
+            android:visibility="gone" />
+
+        <ListView
+            android:id="@id/hw_dialog_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@id/hw_dialog_contetnt_footer_divider"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/hw_dropdown_dialog_divider_line_height"
+        android:background="@drawable/hw_list_divider" />
+
+    <LinearLayout
+        android:id="@id/hw_dialog_footer_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/hw_alert_dialog_button_bar_height"
+        style="@style/Widget.Ali.Button.Dialog"
+        android:measureWithLargestChild="true"
+        android:orientation="horizontal"
+        android:paddingRight="6dp"
+        android:paddingEnd="6dip"
+        android:paddingTop="6dp"></LinearLayout>
+
+</LinearLayout>

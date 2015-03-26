@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="HWDroid" />
+
+    <style name="HWDroid.Widget" />
+
+    <style name="HWDroid.ListItemViewStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">68dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="HWDroid.ListItemTextStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">bottom|left</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+    </style>
+
+    <style name="HWDroid.ListItemTextSecondaryStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">top|left</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:lineSpacingExtra">1dp</item>
+        <item name="android:textAppearance">?android:attr/textAppearance</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="HWDroid.MessageItemViewStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:paddingTop">24dp</item>
+        <item name="android:paddingBottom">24dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="HWDroid.ListItemViewDrawableStyle">
+        <item name="android:layout_width">@dimen/hw_drawable_width</item>
+        <item name="android:layout_height">@dimen/hw_drawable_height</item>
+        <item name="android:layout_marginRight">@dimen/hw_drawable_margin</item>
+        <item name="android:layout_marginEnd">@dimen/hw_drawable_margin</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+
+    <style name="HWDroid.LeftWidget">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:clickable">false</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_marginRight">@dimen/hw_drawable_margin</item>
+        <item name="android:layout_marginEnd">@dimen/hw_drawable_margin</item>
+    </style>
+
+    <style name="HWDroid.RightWidget">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:clickable">false</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_marginLeft">@dimen/hw_drawable_margin</item>
+        <item name="android:layout_marginStart">@dimen/hw_drawable_margin</item>
+    </style>
+
+    <!-- ActionBar related styles -->
+    <style name="HWDroid.Widget.ActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/hw_action_bar_height</item>
+        <item name="android:paddingTop">@dimen/hw_action_bar_margin_top</item>
+        <item name="android:paddingBottom">@dimen/hw_action_bar_margin_bottom</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:paddingEnd">0dp</item>
+    </style>
+
+    <style name="HWDroid.Widget.ActionBarTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">0.5</item>
+        <item name="android:gravity">bottom|center_horizontal</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:paddingEnd">0dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">@color/hw_action_bar_title_text_color</item>
+    </style>
+
+    <style name="HWDroid.Widget.ActionBarSubTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">0.5</item>
+        <item name="android:gravity">top|center_horizontal</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:paddingEnd">0dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmallInverse</item>
+    </style>
+
+    <style name="HWDroid.ActionSheet.dialog" parent="@style/Theme.Ali.Panel">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="HWDroid.ActionSheetNoAnimation" parent="@android:Animation">
+        <item name="android:windowEnterAnimation">@null</item>
+        <item name="android:windowExitAnimation">@null</item>
+    </style>
+
+    <style name="HWDroid.DialogPushUpInAnimation" parent="@android:Animation">
+        <item name="android:windowEnterAnimation">@anim/hw_push_up_in</item>
+        <item name="android:windowExitAnimation">@anim/hw_push_up_out</item>
+    </style>
+
+    <style name="HWDroid.DialogPushDownInAnimation" parent="@android:Animation">
+        <item name="android:windowEnterAnimation">@anim/hw_push_down_in</item>
+        <item name="android:windowExitAnimation">@anim/hw_push_down_out</item>
+    </style>
+
+    <style name="HWDroid.Widget.FooterBar">
+        <item name="android:layout_height">@dimen/hw_footerbar_height</item>
+        <item name="android:background">@drawable/hw_footerbar_background</item>
+    </style>
+
+    <style name="HWDroid.FooterBarButtonTextAppearance">
+        <item name="android:textColor">@color/hw_footerbar_button_text_color</item>
+        <item name="android:textSize">@dimen/hw_foooterbar_button_textsize</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!-- Footerbar popupwindows -->
+    <style name="HWDroid.Widget.PopupWindows">
+        <item name="@android:windowEnterAnimation">@anim/hw_footerbar_popupwindows_in</item>
+        <item name="@android:windowExitAnimation">@anim/hw_footerbar_popupwindows_out</item>
+    </style>
+
+    <!-- AlertDialog customView style-->
+    <!-- It can be directly used, or inherited if you have your own customView style-->
+    <style name="HWDroid.Widget.CustomView">
+        <item name="android:paddingLeft">@dimen/hw_alert_dialog_content_padding_left</item>
+        <item name="android:paddingStart">@dimen/hw_alert_dialog_content_padding_left</item>
+        <item name="android:paddingRight">@dimen/hw_alert_dialog_content_padding_right</item>
+        <item name="android:paddingEnd">@dimen/hw_alert_dialog_content_padding_right</item>
+        <item name="android:paddingTop">@dimen/hw_alert_dialog_content_padding_top</item>
+        <item name="android:paddingBottom">@dimen/hw_alert_dialog_content_padding_bottom</item>
+    </style>
+
+    <style name="HWDroid.Widget.ListViewDivider">
+        <item name="android:background">@drawable/hw_list_divider</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+    </style>
+
+
+</resources>

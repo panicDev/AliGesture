@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hwdroid.widget.itemview.DrawableText2ItemView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/HWDroid.ListItemViewStyle"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@id/hw_drawable"
+            style="@style/HWDroid.ListItemViewDrawableStyle"
+            android:layout_gravity="center_vertical" />
+
+        <include layout="@layout/hw_text_subtext_vertical" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@id/hw_right_widget_frame"
+        style="@style/HWDroid.RightWidget"
+        android:orientation="vertical" />
+
+</hwdroid.widget.itemview.DrawableText2ItemView>

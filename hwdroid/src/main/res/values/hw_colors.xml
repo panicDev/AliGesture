@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- list view color -->
+    <color name="hw_listview_item_bg_pressed">#f2f2f2</color>
+    <color name="hw_listview_item_bg_normal">#00000000</color>
+
+    <drawable name="hw_dropdown_dialog_trans">#00000000</drawable>
+
+    <!-- action bar -->
+    <color name="hw_action_bar_title_text_color">#333333</color>
+
+    <!-- footer bar -->
+
+    <drawable name="hw_footerbar_popup_window_background_color">#40000000</drawable>
+
+    <!-- content view -->
+    <drawable name="hw_content_view_background">#ffffff</drawable>
+
+    <!-- view pager tab indicator -->
+    <color name="hw_vp_tab_indicator_selected_color">#FF52B800</color>
+    <color name="hw_vp_tab_indicator_unselected_color">#FF808080</color>
+    <color name="hw_default_underline_indicator_selected_color">#FF33B5E5</color>
+
+    <color name="hw_action_bar_search_view_background">#f4f4f4</color>
+
+    <!-- action sheet -->
+    <color name="hw_actionsheet_text_color_normal">#333333</color>
+    <color name="hw_actionsheet_text_color_disable">#bfbfbf</color>
+    <color name="hw_actionsheet_actionbutton_title">#808080</color>
+    <color name="hw_actionsheet_actionbutton_green">#52b800</color>
+
+    <!--search view -->
+    <color name="hw_search_view_cancel_pressed">#99333333</color>
+    <color name="hw_search_view_cancel_focused">#99333333</color>
+    <color name="hw_search_view_cancel_selected">#99333333</color>
+    <color name="hw_search_view_cancel_default">#333333</color>
+</resources>

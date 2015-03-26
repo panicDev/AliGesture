@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hwdroid.widget.itemview.WidgetText2CBItemView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/HWDroid.ListItemViewStyle"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@id/hw_left_widget_frame"
+        style="@style/HWDroid.LeftWidget"
+        android:orientation="vertical"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <include layout="@layout/hw_text_subtext_vertical" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@id/hw_right_widget_frame"
+        style="@style/HWDroid.RightWidget"
+        android:orientation="vertical"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp" />
+
+</hwdroid.widget.itemview.WidgetText2CBItemView>

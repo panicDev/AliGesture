@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  -->
+    <!-- Styleables -->
+    <!--  -->
+    <!-- List items related attributes -->
+    <declare-styleable name="Item">
+        <attr name="hw_enabled" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="TextItem">
+        <attr name="hw_text" format="string" />
+    </declare-styleable>
+    <declare-styleable name="SeparatorItem" />
+    <declare-styleable name="DrawableText2Item">
+        <attr name="hw_drawable" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="Text2Item">
+        <attr name="hw_subtext" format="string" />
+    </declare-styleable>
+
+</resources>

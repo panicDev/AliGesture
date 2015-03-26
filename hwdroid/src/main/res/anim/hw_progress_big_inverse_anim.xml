@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+    android:oneshot="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:duration="50"
+        android:drawable="@drawable/hw_white_big_loading_00" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/hw_white_big_loading_01" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/hw_white_big_loading_02" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/hw_white_big_loading_03" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/hw_white_big_loading_04" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/hw_white_big_loading_05" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/hw_white_big_loading_06" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/hw_white_big_loading_07" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/hw_white_big_loading_08" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/hw_white_big_loading_09" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/hw_white_big_loading_10" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/hw_white_big_loading_11" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/hw_white_big_loading_12" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/hw_white_big_loading_13" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/hw_white_big_loading_14" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/hw_white_big_loading_15" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/hw_white_big_loading_16" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/hw_white_big_loading_17" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/hw_white_big_loading_18" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/hw_white_big_loading_19" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/hw_white_big_loading_20" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/hw_white_big_loading_21" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/hw_white_big_loading_22" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/hw_white_big_loading_23" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/hw_white_big_loading_24" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/hw_white_big_loading_25" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/hw_white_big_loading_26" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/hw_white_big_loading_27" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/hw_white_big_loading_28" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/hw_white_big_loading_29" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/hw_white_big_loading_30" />
+    <item
+        android:duration="50"
+        android:drawable="@drawable/hw_white_big_loading_31" />
+</animation-list>

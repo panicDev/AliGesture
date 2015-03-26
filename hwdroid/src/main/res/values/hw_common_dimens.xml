@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Text Appearances -->
+    <dimen name="hw_textAppearance_textSize">13sp</dimen>
+    <dimen name="hw_textAppearance_large_textSize">17sp</dimen>
+    <dimen name="hw_textAppearance_medium_textSize">16sp</dimen>
+    <dimen name="hw_textAppearance_small_textSize">12sp</dimen>
+    <dimen name="hw_textAppearance_popupMenu_large_textSize">17sp</dimen>
+    <dimen name="hw_textAppearance_popupMenu_small_textSize">12sp</dimen>
+    <dimen name="hw_textAppearance_searchResult_title_textSize">17sp</dimen>
+    <dimen name="hw_textAppearance_searchResult_subtitle_textSize">16sp</dimen>
+
+    <!-- Dialog title height -->
+    <dimen name="hw_alert_dialog_title_height">64dip</dimen>
+    <!-- Dialog button bar height -->
+    <dimen name="hw_alert_dialog_button_bar_height">38dip</dimen>
+
+    <!-- Progressbar var -->
+    <dimen name="hw_progressbar_horizontal_min_height">2dp</dimen>
+    <dimen name="hw_progressbar_horizontal_max_height">2dp</dimen>
+    <dimen name="hw_progressbar_normal_min_height">34dp</dimen>
+    <dimen name="hw_progressbar_normal_max_height">34dp</dimen>
+    <dimen name="hw_progressbar_normal_min_width">34dp</dimen>
+    <dimen name="hw_progressbar_normal_max_width">34dp</dimen>
+    <dimen name="hw_progressbar_large_min_height">62dp</dimen>
+    <dimen name="hw_progressbar_large_max_height">62dp</dimen>
+    <dimen name="hw_progressbar_large_min_width">62dp</dimen>
+    <dimen name="hw_progressbar_large_max_width">62dp</dimen>
+
+    <!-- list item padding -->
+    <dimen name="hw_list_item_padding_top">10dp</dimen>
+    <dimen name="hw_list_item_padding_bottom">10dp</dimen>
+
+    <!-- EditText select -->
+    <dimen name="hw_combobutton_top_offset">40dp</dimen>
+
+    <!--AlertDialog padding  -->
+    <dimen name="hw_alert_dialog_content_padding_left">16dp</dimen>
+    <dimen name="hw_alert_dialog_content_padding_right">16dp</dimen>
+    <dimen name="hw_alert_dialog_content_padding_top">32dp</dimen>
+    <dimen name="hw_alert_dialog_content_padding_bottom">32dp</dimen>
+
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hwdroid.dialog.itemview.DropdownDialogMessageItemView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/HWDroid.MessageItemViewStyle">
+
+    <TextView
+        android:id="@id/hw_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:singleLine="false"
+        android:textSize="@dimen/hw_textAppearance_medium_textSize"
+        android:textColor="@color/hw_dialog_cancel_button_text"
+        android:lineSpacingExtra="6dp"></TextView>
+
+</hwdroid.dialog.itemview.DropdownDialogMessageItemView>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <EditText
+            android:id="@id/hw_searchview_mask"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/hw_textfield_searchview"
+            android:drawableLeft="@drawable/hw_ic_search"
+            android:drawableStart="@drawable/hw_ic_search"
+            android:drawablePadding="8dip"
+            android:paddingStart="8dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:hint="@android:string/search_go"
+            android:longClickable="false"
+            android:orientation="vertical"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ViewStub
+            android:id="@id/hw_viewstub_searchview_atext"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout="@layout/hw_action_bar_search_view_edittext" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="16dp">
+
+        <TextView
+            android:id="@id/hw_searchview_back"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/hw_action_bar_height"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:paddingEnd="16dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingStart="16dp"
+            android:text="@string/hw_search_view_cancel"
+            android:textColor="@drawable/hw_search_view_cancel"
+            android:textSize="@dimen/hw_textAppearance_medium_textSize"
+            android:visibility="gone" />
+    </FrameLayout>
+
+</merge>

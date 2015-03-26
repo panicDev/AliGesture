@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <style name="Theme.Ali" parent="android:style/Theme.Light">
+        <item name="android:windowBackground">@drawable/hw_screen_background_selector_light</item>
+        <!-- Text styles -->
+        <item name="android:textAppearance">@style/TextAppearance.Ali</item>
+        <item name="android:textAppearanceInverse">@style/TextAppearance.Ali.Inverse</item>
+        <item name="android:textAppearanceLarge">@style/TextAppearance.Ali.Large</item>
+        <item name="android:textAppearanceMedium">@style/TextAppearance.Ali.Medium</item>
+        <item name="android:textAppearanceSmall">@style/TextAppearance.Ali.Small</item>
+        <item name="android:textAppearanceLargeInverse">@style/TextAppearance.Ali.Large.Inverse
+        </item>
+        <item name="android:textAppearanceMediumInverse">@style/TextAppearance.Ali.Medium.Inverse
+        </item>
+        <item name="android:textAppearanceSmallInverse">@style/TextAppearance.Ali.Small.Inverse
+        </item>
+        <item name="android:textAppearanceSearchResultTitle">
+            @style/TextAppearance.Ali.SearchResult.Title
+        </item>
+        <item name="android:textAppearanceSearchResultSubtitle">
+            @style/TextAppearance.Ali.SearchResult.Subtitle
+        </item>
+        <item name="android:textAppearanceButton">@style/TextAppearance.Ali.Widget.Button</item>
+        <item name="android:textAppearanceLargePopupMenu">
+            @style/TextAppearance.Ali.Widget.PopupMenu.Large
+        </item>
+        <item name="android:textAppearanceSmallPopupMenu">
+            @style/TextAppearance.Ali.Widget.PopupMenu.Small
+        </item>
+
+        <item name="android:editTextColor">@color/hw_primary_text_light</item>
+        <item name="android:editTextBackground">@drawable/hw_edit_text</item>
+
+        <!-- Text styles add extral-->
+        <item name="android:textColorPrimary">@color/hw_primary_text_dark</item>
+        <item name="android:textColorSecondary">@color/hw_secondary_text_dark</item>
+        <item name="android:textColorTertiary">@color/hw_tertiary_text_dark</item>
+        <item name="android:textColorSecondaryInverse">@android:color/secondary_text_light</item>
+        <item name="android:textColorTertiaryInverse">@android:color/tertiary_text_light</item>
+        <item name="android:textColorPrimaryInverse">@color/hw_primary_text_light</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/hw_primary_text_dark</item>
+        <item name="android:textColorPrimaryInverseDisableOnly">@color/hw_primary_text_light</item>
+        <item name="android:textColorHighlightInverse">@color/hw_highlighted_text_light</item>
+        <item name="android:textColorHint">@color/hw_hint_foreground_dark</item>
+        <item name="android:textColorHintInverse">@color/hw_hint_foreground_light</item>
+        <item name="android:textColorLink">@color/hw_link_text_dark</item>
+        <item name="android:textColorLinkInverse">@color/hw_link_text_light</item>
+        <item name="*android:textColorAlertDialogListItem">@color/hw_dialog_cancel_button_text
+        </item>
+        <item name="android:expandableListPreferredItemPaddingLeft">40dip</item>
+        <item name="android:expandableListPreferredChildPaddingLeft">
+            ?android:attr/expandableListPreferredItemPaddingLeft
+        </item>
+
+        <item name="android:expandableListPreferredItemIndicatorLeft">0dip</item>
+        <item name="android:expandableListPreferredItemIndicatorRight">0dip</item>
+        <item name="android:expandableListPreferredChildIndicatorLeft">
+            ?android:attr/expandableListPreferredItemIndicatorLeft
+        </item>
+        <item name="android:expandableListPreferredChildIndicatorRight">
+            ?android:attr/expandableListPreferredItemIndicatorRight
+        </item>
+
+        <item name="android:scrollbarThumbHorizontal">@drawable/hw_scrollbar_handle_horizontal
+        </item>
+        <item name="android:scrollbarThumbVertical">@drawable/hw_scrollbar_handle_vertical</item>
+        <!-- List attributes -->
+        <item name="android:listPreferredItemHeight">50dip</item>
+        <!-- <item name="android:dropdownListPreferredItemHeight">attr/listPreferredItemHeight</item> -->
+        <item name="android:listPreferredItemHeightSmall">?android:attr/listPreferredItemHeight
+        </item>
+        <item name="android:listPreferredItemHeightLarge">?android:attr/listPreferredItemHeight
+        </item>
+        <item name="android:textAppearanceListItem">?android:attr/textAppearanceMedium</item>
+        <item name="android:textAppearanceListItemSmall">?android:attr/textAppearanceSmall</item>
+        <item name="android:listPreferredItemPaddingLeft">16dip</item>
+        <item name="android:listPreferredItemPaddingRight">16dip</item>
+        <item name="android:listChoiceBackgroundIndicator">@drawable/hw_list_selector_background
+        </item>
+        <item name="android:listDivider">@drawable/hw_list_divider</item>
+        <item name="android:colorBackgroundCacheHint">@drawable/hw_screen_background_light</item>
+
+        <!-- Button styles -->
+        <item name="android:buttonStyle">@style/Widget.Ali.Button</item>
+        <item name="*android:buttonBarButtonStyle">?android:attr/buttonStyle</item>
+        <item name="android:buttonStyleSmall">@style/Widget.Ali.Button.Small</item>
+        <item name="android:buttonStyleInset">@style/Widget.Ali.Button.Inset</item>
+
+        <item name="android:buttonStyleToggle">@style/Widget.Ali.Button.Toggle</item>
+
+        <item name="android:selectableItemBackground">@drawable/hw_list_selector_background</item>
+        <item name="*android:switchStyle">@style/Widget.Ali.CompoundButton.Switch</item>
+
+        <item name="android:borderlessButtonStyle">@style/Widget.Ali.Button.Borderless</item>
+
+        <item name="android:listSeparatorTextViewStyle">
+            @style/Widget.Ali.PreferenceCategory.TextView.ListSeparator
+        </item>
+
+        <!-- Window attributes -->
+        <item name="android:windowTitleStyle">@style/WindowTitle.Ali</item>
+        <item name="android:windowTitleBackgroundStyle">@style/WindowTitleBackground.Ali</item>
+        <!-- <item name="android:windowAnimationStyle">@style/Animation.Ali.Activity</item> -->
+
+        <!-- Dialog attributes -->
+        <item name="android:dialogTheme">@style/Theme.Ali.Dialog</item>
+        <!--<item name="*android:dialogTitleIconsDecorLayout">@layout/hw_dialog_title_icons_holo</item>-->
+        <!-- AlertDialog attributes -->
+        <item name="android:alertDialogTheme">@style/Theme.Ali.Dialog.Alert</item>
+        <item name="android:alertDialogStyle">@style/AlertDialog.Ali</item>
+        <!-- Presentation attributes -->
+        <!-- <item name="android:presentationTheme">@android:style/Theme.Ali.Dialog.Presentation</item> -->
+
+        <!-- Text selection handle attributes -->
+        <!-- <item name="android:textSelectHandleWindowStyle">@style/Widget.Ali.TextSelectHandle</item> -->
+        <!-- <item name="android:textSuggestionsWindowStyle">@style/Widget.Ali.TextSuggestionsPopupWindow</item> -->
+
+        <!-- Widget styles -->
+        <item name="android:absListViewStyle">@style/Widget.Ali.AbsListView</item>
+        <item name="android:autoCompleteTextViewStyle">@style/Widget.Ali.AutoCompleteTextView</item>
+        <item name="android:checkboxStyle">@style/Widget.Ali.CompoundButton.CheckBox</item>
+        <!-- <item name="android:checkedTextViewStyle">@style/Widget.Ali.CheckedTextView</item> -->
+        <item name="android:dropDownListViewStyle">@style/Widget.Ali.ListView.DropDown</item>
+        <item name="android:editTextStyle">@style/Widget.Ali.EditText</item>
+        <item name="android:expandableListViewStyle">@style/Widget.Ali.ExpandableListView</item>
+        <!-- <item name="android:expandableListViewWhiteStyle">@style/Widget.Ali.ExpandableListView.White</item> -->
+        <!-- <item name="android:galleryStyle">@style/Widget.Ali.Gallery</item> -->
+        <!-- <item name="android:gestureOverlayViewStyle">@android:style/Widget.Ali.GestureOverlayView</item> -->
+        <item name="android:gridViewStyle">@style/Widget.Ali.GridView</item>
+        <item name="android:imageButtonStyle">@style/Widget.Ali.ImageButton</item>
+        <!-- <item name="android:imageWellStyle">@style/Widget.Ali.ImageWell</item> -->
+        <item name="android:listViewStyle">@style/Widget.Ali.ListView</item>
+        <!-- <item name="android:listViewWhiteStyle">@style/Widget.Ali.ListView.White</item> -->
+        <item name="android:popupWindowStyle">@style/Widget.Ali.PopupWindow</item>
+        <item name="android:progressBarStyle">@style/Widget.Ali.ProgressBar</item>
+        <item name="android:progressBarStyleHorizontal">@style/Widget.Ali.ProgressBar.Horizontal
+        </item>
+        <item name="android:progressBarStyleSmall">@style/Widget.Ali.ProgressBar.Small</item>
+        <item name="android:progressBarStyleSmallTitle">@style/Widget.Ali.ProgressBar.Small.Title
+        </item>
+        <item name="android:progressBarStyleLarge">@style/Widget.Ali.ProgressBar.Large</item>
+        <item name="android:progressBarStyleInverse">@style/Widget.Ali.ProgressBar.Inverse</item>
+        <item name="android:progressBarStyleSmallInverse">@style/Widget.Ali.ProgressBar.Small</item>
+        <item name="android:progressBarStyleLargeInverse">
+            @style/Widget.Ali.ProgressBar.Large.Inverse
+        </item>
+        <item name="android:seekBarStyle">@style/Widget.Ali.SeekBar</item>
+        <item name="android:ratingBarStyle">@style/Widget.Ali.RatingBar</item>
+        <item name="android:ratingBarStyleIndicator">@style/Widget.Ali.RatingBar.Indicator</item>
+        <item name="android:ratingBarStyleSmall">@style/Widget.Ali.RatingBar.Small</item>
+        <item name="android:radioButtonStyle">@style/Widget.Ali.CompoundButton.RadioButton</item>
+        <item name="android:scrollViewStyle">@style/Widget.Ali.ScrollView</item>
+        <item name="android:horizontalScrollViewStyle">@style/Widget.Ali.HorizontalScrollView</item>
+        <item name="android:spinnerStyle">@style/Widget.Ali.Spinner</item>
+        <item name="android:dropDownSpinnerStyle">@style/Widget.Ali.Spinner.DropDown</item>
+        <item name="android:starStyle">@style/Widget.Ali.CompoundButton.Star</item>
+        <item name="android:tabWidgetStyle">@style/Widget.Ali.TabWidget</item>
+        <item name="android:textViewStyle">@style/Widget.Ali.TextView</item>
+        <item name="android:webTextViewStyle">@style/Widget.Ali.WebTextView</item>
+        <item name="android:webViewStyle">@style/Widget.Ali.WebView</item>
+        <item name="android:dropDownItemStyle">@style/Widget.Ali.DropDownItem</item>
+        <item name="android:spinnerDropDownItemStyle">@style/Widget.Ali.DropDownItem.Spinner</item>
+        <item name="android:spinnerItemStyle">@style/Widget.Ali.TextView.SpinnerItem</item>
+        <item name="android:dropDownHintAppearance">@style/TextAppearance.Ali.Widget.DropDownHint
+        </item>
+        <!-- <item name="android:keyboardViewStyle">@android:style/Widget.Ali.KeyboardView</item> -->
+        <!-- <item name="android:quickContactBadgeStyleWindowSmall">@style/Widget.Ali.QuickContactBadge.WindowSmall</item> -->
+        <!-- <item name="android:quickContactBadgeStyleWindowMedium">@style/Widget.Ali.QuickContactBadge.WindowMedium</item> -->
+        <!-- <item name="android:quickContactBadgeStyleWindowLarge">@style/Widget.Ali.QuickContactBadge.WindowLarge</item> -->
+        <!-- <item name="android:quickContactBadgeStyleSmallWindowSmall">@style/Widget.Ali.QuickContactBadgeSmall.WindowSmall</item> -->
+        <!-- <item name="android:quickContactBadgeStyleSmallWindowMedium">@style/Widget.Ali.QuickContactBadgeSmall.WindowMedium</item> -->
+        <!-- <item name="android:quickContactBadgeStyleSmallWindowLarge">@style/Widget.Ali.QuickContactBadgeSmall.WindowLarge</item> -->
+        <item name="android:listPopupWindowStyle">@style/Widget.Ali.ListPopupWindow</item>
+        <item name="android:popupMenuStyle">@style/Widget.Ali.PopupMenu</item>
+        <!-- <item name="android:stackViewStyle">@android:style/Widget.Ali.StackView</item> -->
+
+        <!-- Preference styles -->
+        <item name="android:preferenceStyle">@style/Preference.Ali</item>
+        <item name="android:preferenceCategoryStyle">@style/Preference.Ali.Category</item>
+        <item name="android:checkBoxPreferenceStyle">@style/Preference.Ali.CheckBoxPreference</item>
+        <item name="android:preferenceLayoutChild">@layout/hw_common_preference_child</item>
+        <item name="android:preferenceScreenStyle">@style/Preference.Ali.PreferenceScreen</item>
+        <!--<item name="*android:switchPreferenceStyle">@style/Preference.Ali.SwitchPreference</item>-->
+        <!--<item name="*android:detailsElementBackground">@null</item>-->
+        <!--<item name="*android:preferenceFragmentListStyle">@style/HWPreferenceFragmentList</item>-->
+
+        <!-- Unverified -->
+        <item name="android:preferenceInformationStyle">@style/Preference.Ali.Information</item>
+        <item name="android:yesNoPreferenceStyle">
+            @style/Preference.Ali.DialogPreference.YesNoPreference
+        </item>
+        <item name="android:dialogPreferenceStyle">@style/Preference.Ali.DialogPreference</item>
+        <item name="android:editTextPreferenceStyle">
+            @style/Preference.Ali.DialogPreference.EditTextPreference
+        </item>
+        <item name="android:ringtonePreferenceStyle">@style/Preference.Ali.RingtonePreference</item>
+        <!-- End Preference -->
+        <!-- Action bar styles -->
+        <!-- <item name="android:actionDropDownStyle">@style/Widget.Ali.Spinner.DropDown.ActionBar</item> -->
+        <item name="android:actionButtonStyle">@style/Widget.Ali.ActionButton</item>
+        <item name="android:actionOverflowButtonStyle">@style/Widget.Ali.ActionButton.Overflow
+        </item>
+        <item name="android:actionBarTabStyle">@style/Widget.Ali.ActionBar.TabView</item>
+        <item name="android:actionBarTabBarStyle">@style/Widget.Ali.ActionBar.TabBar</item>
+        <item name="android:actionBarTabTextStyle">@style/Widget.Ali.ActionBar.TabText</item>
+        <item name="android:actionModeStyle">@style/Widget.Ali.ActionMode</item>
+        <item name="android:actionModeCloseButtonStyle">@style/Widget.Ali.ActionButton.CloseMode
+        </item>
+        <item name="android:actionBarStyle">@style/Widget.Ali.ActionBar</item>
+
+        <item name="android:actionBarItemBackground">@drawable/hw_actionbar_background_light</item>
+        <!-- <item name="android:actionModePopupWindowStyle">@android:style/Widget.Ali.PopupWindow.ActionMode</item> -->
+
+        <item name="android:dividerVertical">?android:attr/listDivider</item>
+        <item name="android:dividerHorizontal">?android:attr/listDivider</item>
+        <item name="android:buttonBarStyle">@style/Ali.ButtonBar</item>
+        <!-- <item name="android:segmentedButtonStyle">@android:style/Ali.SegmentedButton</item> -->
+
+        <!-- <item name="android:searchDialogTheme">@style/Theme.Ali.SearchBar</item> -->
+
+        <!-- PreferenceFrameLayout attributes -->
+        <!-- <item name="android:preferenceFrameLayoutStyle">@android:style/Widget.Ali.PreferenceFrameLayout</item> -->
+
+        <!-- NumberPicker style-->
+        <!--<item name="*android:numberPickerStyle">@style/Widget.Ali.NumberPicker</item>-->
+
+        <!-- CalendarView style-->
+        <item name="android:calendarViewStyle">@style/Widget.Ali.CalendarView</item>
+
+        <!-- TimePicker style -->
+        <!--<item name="*android:timePickerStyle">@style/Widget.Ali.TimePicker</item>-->
+
+        <!-- DatePicker style -->
+        <item name="android:datePickerStyle">@style/Widget.Ali.DatePicker</item>
+        <!-- radio button attr -->
+        <item name="android:listChoiceIndicatorSingle">@drawable/hw_btn_radio</item>
+
+        <!--checkbox button attr  -->
+        <item name="android:listChoiceIndicatorMultiple">@drawable/hw_btn_check</item>
+        <!-- <item name="android:mediaRouteButtonStyle">@android:style/Widget.Ali.MediaRouteButton</item> -->
+
+        <!-- SearchView attributes -->
+        <!--         <item name="*android:searchViewTextField">@drawable/hw_android_textfield_searchview</item>
+                <item name="*android:searchViewCloseIcon">@drawable/hw_ic_clear</item>
+                <item name="*android:searchViewSearchIcon">@drawable/hw_ic_search</item>
+                <item name="*android:searchViewGoIcon">@drawable/hw_ic_search</item>
+
+                Toast attributes
+                <item name="*android:toastFrameBackground">@drawable/hw_toast_frame</item> -->
+    </style>
+
+    <!-- Default theme with an Action Bar. -->
+    <style name="Theme.Ali.WithActionBar">
+        <item name="android:windowActionBar">true</item>
+    </style>
+
+    <style name="Theme.Ali.NoDisplay">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowNoDisplay">true</item>
+    </style>
+
+    <style name="Theme.Ali.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Ali.NoActionBar.Fullscreen">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!-- Theme for translucent activities (on API level 10 and lower). That is, windows
+         that allow you to see through them to the windows behind.  This sets up the translucent
+         flag and appropriate animations for your windows.  -->
+    <style name="Theme.Ali.Translucent">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- Note that we use the base animation style here (that is no
+             animations) because we really have no idea how this kind of
+             activity will be used. -->
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+    </style>
+
+    <style name="Theme.Ali.Translucent.NoTitleBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="Theme.Ali.Translucent.NoTitleBar.Fullscreen">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="Theme.Ali.NoActionBar.Overscan">
+        <item name="android:windowFullscreen">true</item>
+        <!-- <item name="android:windowOverscan">true</item> -->
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="Theme.Ali.NoActionBar.TranslucentDecor">
+        <!-- <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item> -->
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <!-- Ali theme for dialog windows and activities. This changes the window to be
+    floating (not fill the entire screen), and puts a frame around its contents. You can set this
+    theme on an activity if you would like to make an activity that looks like a Dialog. -->
+    <style name="Theme.Ali.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowTitleStyle">@style/DialogWindowTitle.Ali</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:buttonBarStyle">@style/Ali.ButtonBar.AlertDialog</item>
+        <item name="android:buttonStyle">@style/Widget.Ali.Button.Dialog</item>
+    </style>
+
+    <style name="Theme.Ali.Dialog.MinWidth" parent="android:style/Theme.Holo.Dialog.MinWidth">
+
+    </style>
+
+    <style name="Theme.Ali.Dialog.NoActionBar" parent="android:style/Theme.Holo.Dialog.NoActionBar">
+
+    </style>
+
+    <style name="Theme.Ali.Dialog.NoActionBar.MinWidth" parent="android:style/Theme.Holo.Dialog.NoActionBar.MinWidth">
+
+    </style>
+
+    <!-- Ali theme for a window that will be displayed either full-screen on smaller
+    screens (small, normal) or as a dialog on larger screens (large, xlarge). -->
+    <style name="Theme.Ali.DialogWhenLarge">
+
+    </style>
+    <!-- Ali theme for a window without an action bar that will be displayed either
+    full-screen on smaller screens (small, normal) or as a dialog on larger screens (large,
+    xlarge). -->
+    <style name="Theme.Ali.DialogWhenLarge.NoActionBar">
+
+    </style>
+
+    <!-- Ali light theme for panel windows. This removes all extraneous window
+    decorations, so you basically have an empty rectangle in which to place your content. It makes
+    the window floating, with a transparent background, and turns off dimming behind the window. -->
+    <style name="Theme.Ali.Panel">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- Ali theme for windows that want to have the user's selected wallpaper appear
+    behind them. -->
+    <style name="Theme.Ali.Wallpaper">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowShowWallpaper">true</item>
+    </style>
+    <!-- Ali theme for windows that want to have the user's selected wallpaper appear
+    behind them and without an action bar. -->
+    <style name="Theme.Ali.Wallpaper.NoTitleBar">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Ali.InputMethod" parent="android:Theme.Holo.InputMethod">
+        <item name="android:editTextBackground">@drawable/hw_edit_text</item>
+        <item name="android:buttonStyle">@style/Widget.Ali.Button.Small</item>
+    </style>
+
+    <style name="Theme.Ali.DarkActionBar" parent="android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/Widget.Ali.ActionBar.Solid</item>
+
+        <!-- <item name="android:actionDropDownStyle">@style/Widget.Ali.Spinner.DropDown.ActionBar</item> -->
+        <item name="android:actionButtonStyle">@style/Widget.Ali.ActionButton</item>
+        <item name="android:actionOverflowButtonStyle">@style/Widget.Ali.ActionButton.Overflow
+        </item>
+        <item name="android:actionBarTabStyle">@style/Widget.Ali.ActionBar.TabView</item>
+        <item name="android:actionBarTabBarStyle">@style/Widget.Ali.ActionBar.TabBar</item>
+        <item name="android:actionBarTabTextStyle">@style/Widget.Ali.ActionBar.TabText</item>
+        <item name="android:actionModeStyle">@style/Widget.Ali.ActionMode</item>
+        <item name="android:actionModeCloseButtonStyle">@style/Widget.Ali.ActionButton.CloseMode
+        </item>
+        <!-- <item name="android:actionModePopupWindowStyle">@android:style/Widget.Ali.PopupWindow.ActionMode</item> -->
+    </style>
+
+    <style name="Theme.Ali.Dialog.Alert">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- <item name="android:windowTitleStyle">@android:style/DialogWindowTitle</item> -->
+        <!-- item name="android:windowContentOverlay">@drawable/red</item> -->
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:itemTextAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textAppearanceListItem">?android:attr/textAppearanceMedium</item>
+        <item name="android:textAppearanceListItemSmall">?android:attr/textAppearanceMedium</item>
+        <item name="android:backgroundDimAmount">0.4</item>
+    </style>
+
+    <style name="Theme.Ali.Dialog.Alert.Title">
+        <item name="android:alertDialogStyle">@style/AlertDialog.Ali.Title</item>
+    </style>
+
+    <style name="Theme.Ali.Panel.Volume">
+        <item name="android:windowAnimationStyle">@style/Animation.Ali.VolumePanel</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+
+</resources>
+

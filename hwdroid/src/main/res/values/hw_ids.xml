@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="hw_action_bar_host" />
+    <item type="id" name="hw_action_bar_content_view" />
+    <item type="id" name="hw_footer_bar" />
+    <item type="id" name="hw_widget_text2_item_view_tag_key" />
+    <item type="id" name="hw_underline_indicator" />
+    <item type="id" name="hw_tab_container" />
+    <item type="id" name="hw_actionbar_option_menu_popup_view">false</item>
+    <item type="id" name="hw_actionbar_option_menu_popup_placeholder">false</item>
+    <item type="id" name="hw_action_bar_left_container">false</item>
+    <item type="id" name="hw_action_bar_right_container">false</item>
+    <item type="id" name="hw_action_bar_right_container_second">false</item>
+    <item type="id" name="hw_action_bar_title_layout">false</item>
+    <item type="id" name="hw_action_bar_title">false</item>
+    <item type="id" name="hw_action_bar_subtitle">false</item>
+    <item type="id" name="hw_action_bar_divider">false</item>
+    <item type="id" name="hw_drawable">false</item>
+    <item type="id" name="hw_text">false</item>
+    <item type="id" name="hw_subtext">false</item>
+    <item type="id" name="hw_right_widget_frame">false</item>
+    <item type="id" name="hw_radio">false</item>
+    <item type="id" name="hw_dialog_progress_message_text">false</item>
+    <item type="id" name="hw_dialog_progress_count_text">false</item>
+    <item type="id" name="hw_pop_layout">false</item>
+    <item type="id" name="hw_dialog_title_view">false</item>
+    <item type="id" name="hw_dialog_title_text">false</item>
+    <item type="id" name="hw_dialog_custom_view">false</item>
+    <item type="id" name="hw_dialog_listview">false</item>
+    <item type="id" name="hw_dialog_footer_view">false</item>
+    <item type="id" name="hw_footer_popup_placeholder">false</item>
+    <item type="id" name="hw_footer_popup_list">false</item>
+    <item type="id" name="hw_titleDivider">false</item>
+    <item type="id" name="hw_footerbar_content">false</item>
+    <item type="id" name="hw_separator_text">false</item>
+    <item type="id" name="hw_left_widget_frame">false</item>
+    <item type="id" name="hw_action_bar_container" />
+    <item type="id" name="hw_searchview_back" />
+    <item type="id" name="hw_searchview_mask" />
+    <item type="id" name="hw_searchview_atext" />
+    <item type="id" name="switchWidget" />
+    <item type="id" name="hw_viewstub_searchview_atext" />
+    <item type="id" name="hw_searchview_domain" />
+    <item type="id" name="hw_searchview_divider" />
+    <item type="id" name="hw_combobutton_view" />
+    <item type="id" name="hw_footer_menu_item_icon" />
+    <item type="id" name="hw_mark_root_view" />
+    <item type="id" name="hw_dialog_contetnt_footer_divider" />
+    <item type="id" name="hw_item_layout" />
+    <item type="id" name="hw_item_icon" />
+    <item type="id" name="hw_item_text" />
+    <item type="id" name="hw_item_badge_wrapper" />
+    <item type="id" name="hw_item_badgeview" />
+    <item type="id" name="hw_item_right_widget" />
+    <item type="id" name="hw_item_checkbox" />
+    <item type="id" name="hw_item_radiobutton" />
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme.HWDroid.Ali" parent="@style/Theme.Ali"></style>
+
+    <!-- Default theme with an Action Bar. -->
+    <style name="Theme.HWDroid.Ali.WithActionBar" parent="@style/Theme.Ali.WithActionBar"></style>
+
+    <style name="Theme.HWDroid.Ali.NoDisplay" parent="@style/Theme.Ali.NoDisplay"></style>
+
+    <style name="Theme.HWDroid.Ali.NoActionBar" parent="@style/Theme.Ali.NoActionBar"></style>
+
+    <style name="Theme.HWDroid.Ali.NoActionBar.Fullscreen" parent="@style/Theme.Ali.NoActionBar.Fullscreen"></style>
+
+    <style name="Theme.HWDroid.Ali.Translucent" parent="@style/Theme.Ali.Translucent"></style>
+
+    <style name="Theme.HWDroid.Ali.Translucent.NoTitleBar" parent="@style/Theme.Ali.Translucent.NoTitleBar"></style>
+
+    <style name="Theme.HWDroid.Ali.Translucent.NoTitleBar.Fullscreen" parent="@style/Theme.Ali.Translucent.NoTitleBar.Fullscreen"></style>
+
+    <style name="Theme.HWDroid.Ali.Dialog" parent="@style/Theme.Ali.Dialog"></style>
+
+    <style name="Theme.HWDroid.Ali.Dialog.MinWidth" parent="@style/Theme.Ali.Dialog.MinWidth"></style>
+
+    <style name="Theme.HWDroid.Ali.Dialog.NoActionBar" parent="@style/Theme.Ali.Dialog.NoActionBar"></style>
+
+    <style name="Theme.HWDroid.Ali.Dialog.NoActionBar.MinWidth" parent="@style/Theme.Ali.Dialog.NoActionBar.MinWidth"></style>
+
+    <style name="Theme.HWDroid.Ali.DialogWhenLarge" parent="@style/Theme.Ali.DialogWhenLarge"></style>
+
+    <style name="Theme.HWDroid.Ali.DialogWhenLarge.NoActionBar" parent="@style/Theme.Ali.DialogWhenLarge.NoActionBar"></style>
+
+    <style name="Theme.HWDroid.Ali.Panel" parent="@style/Theme.Ali.Panel"></style>
+
+    <style name="Theme.HWDroid.Ali.Dialog.Alert" parent="@style/Theme.Ali.Dialog.Alert"></style>
+
+    <style name="Theme.HWDroid.Ali.DarkActionBar" parent="@style/Theme.Ali.DarkActionBar"></style>
+
+    <!-- app don't use this style! -->
+    <style name="Theme.HWDroid.Dialog.PushUpIn" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/hw_dropdown_dialog_trans</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimAmount">0.4</item>
+    </style>
+
+</resources>

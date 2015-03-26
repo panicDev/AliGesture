@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+/*
+** Copyright 2010, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+<!-- 
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parentPanel"
+    android:layout_width="match_parent"
+    android:minWidth="324dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/hw_alert_dialog_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:id="@+id/topPanel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:minHeight="50dp">
+
+            <View
+                android:id="@+id/titleDividerTop"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:background="@android:color/holo_blue_light"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/title_template"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|start"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/icon"
+                    android:layout_width="0dp"
+                    android:layout_weight="0"
+                    android:layout_height="wrap_content"
+                    android:src="@null" />
+
+                <com.android.internal.widget.DialogTitle
+                    android:id="@+id/alertTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="50dp"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/hw_dialog_title_text" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/titleDivider"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@drawable/hw_list_divider"
+                android:visibility="visible" />
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/contentPanel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ScrollView
+                android:id="@+id/scrollView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false" >
+
+                <TextView
+                    android:id="@+id/message"
+                    style="?android:attr/textAppearanceMedium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/hw_alert_dialog_content_padding_left"
+                    android:layout_marginEnd="@dimen/hw_alert_dialog_content_padding_right"
+                    android:layout_marginLeft="@dimen/hw_alert_dialog_content_padding_left"
+                    android:layout_marginRight="@dimen/hw_alert_dialog_content_padding_right"
+		    android:layout_marginTop="@dimen/hw_alert_dialog_content_padding_top"
+                    android:layout_marginBottom="@dimen/hw_alert_dialog_content_padding_bottom"
+                    android:lineSpacingExtra="6dp"/>
+            </ScrollView>
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/customPanel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <FrameLayout
+                android:id="@+android:id/custom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </FrameLayout>
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttonPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerPadding="0dip"
+        android:minHeight="@dimen/hw_alert_dialog_button_bar_height"
+        android:orientation="vertical"
+        android:showDividers="beginning"
+	android:divider="@drawable/hw_list_divider" >
+        
+        <LinearLayout
+	    style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:measureWithLargestChild="true"
+            android:orientation="horizontal"
+	    android:showDividers="middle"
+            android:divider="@drawable/hw_list_divider"
+	    android:paddingLeft="6dp"
+            android:paddingRight="6dp"
+	    android:paddingStart="6dip"		
+	    android:paddingEnd="6dip"
+            android:paddingTop="6dp" >
+
+            <Button
+                android:id="@android:id/button2"
+                style="@style/Widget.Ali.Button.Dialog.Left"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:minHeight="@dimen/hw_alert_dialog_button_bar_height"
+                android:textAppearance="@style/TextAppearance.Ali.Dialog.CancelBtn"/>
+
+            <Button
+                android:id="@android:id/button3"
+                style="@style/Widget.Ali.Button.Dialog.Middle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:ellipsize="end"
+		android:minHeight="@dimen/hw_alert_dialog_button_bar_height"
+                android:textAppearance="@style/TextAppearance.Ali.Dialog.CancelBtn"/>
+
+            <Button
+                android:id="@android:id/button1"
+                style="@style/Widget.Ali.Button.Dialog.Right"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:minHeight="@dimen/hw_alert_dialog_button_bar_height"
+                android:textAppearance="@style/TextAppearance.Ali.Dialog.OKBtn"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+ -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@*android:id/parentPanel"
+    android:layout_width="match_parent"
+    android:minWidth="324dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/hw_alert_dialog_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@*android:id/topPanel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:minHeight="50dp">
+
+            <View
+                android:id="@*android:id/titleDividerTop"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:background="@android:color/holo_blue_light"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@*android:id/title_template"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|start"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@*android:id/icon"
+                    android:layout_width="0dp"
+                    android:layout_weight="0"
+                    android:layout_height="wrap_content"
+                    android:src="@null" />
+
+                <com.android.internal.widget.DialogTitle
+                    android:id="@*android:id/alertTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="50dp"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/hw_dialog_title_text" />
+            </LinearLayout>
+
+            <View
+                android:id="@*android:id/titleDivider"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@drawable/hw_list_divider"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@*android:id/contentPanel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:id="@*android:id/scrollView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false">
+
+                <TextView
+                    android:id="@*android:id/message"
+                    style="?android:attr/textAppearanceMedium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/hw_alert_dialog_content_padding_left"
+                    android:layout_marginEnd="@dimen/hw_alert_dialog_content_padding_right"
+                    android:layout_marginLeft="@dimen/hw_alert_dialog_content_padding_left"
+                    android:layout_marginRight="@dimen/hw_alert_dialog_content_padding_right"
+                    android:layout_marginTop="@dimen/hw_alert_dialog_content_padding_top"
+                    android:layout_marginBottom="@dimen/hw_alert_dialog_content_padding_bottom"
+                    android:lineSpacingExtra="6dp" />
+            </ScrollView>
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@*android:id/customPanel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <FrameLayout
+                android:id="@+android:id/custom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@*android:id/buttonPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerPadding="0dip"
+        android:minHeight="@dimen/hw_alert_dialog_button_bar_height"
+        android:orientation="vertical"
+        android:showDividers="beginning"
+        android:divider="@drawable/hw_list_divider">
+
+        <LinearLayout
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:measureWithLargestChild="true"
+            android:orientation="horizontal"
+            android:paddingRight="6dp"
+            android:paddingEnd="6dip"
+            android:paddingTop="6dp">
+
+            <Button
+                android:id="@android:id/button2"
+                style="@style/Widget.Ali.Button.Dialog.Left"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:minHeight="@dimen/hw_alert_dialog_button_bar_height"
+                android:textAppearance="@style/TextAppearance.Ali.Dialog.CancelBtn"
+                android:layout_marginLeft="6dp"
+                android:layout_marginStart="6dp" />
+
+            <Button
+                android:id="@android:id/button3"
+                style="@style/Widget.Ali.Button.Dialog.Middle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:minHeight="@dimen/hw_alert_dialog_button_bar_height"
+                android:textAppearance="@style/TextAppearance.Ali.Dialog.CancelBtn"
+                android:layout_marginLeft="6dp"
+                android:layout_marginStart="6dp" />
+
+            <Button
+                android:id="@android:id/button1"
+                style="@style/Widget.Ali.Button.Dialog.Right"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:minHeight="@dimen/hw_alert_dialog_button_bar_height"
+                android:textAppearance="@style/TextAppearance.Ali.Dialog.OKBtn"
+                android:layout_marginLeft="6dp"
+                android:layout_marginStart="6dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
