@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+/* //device/apps/common/assets/res/any/colors.xml
+**
+** Copyright 2008, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License"); 
+** you may not use this file except in compliance with the License. 
+** You may obtain a copy of the License at 
+**
+**     http://www.apache.org/licenses/LICENSE-2.0 
+**
+** Unless required by applicable law or agreed to in writing, software 
+** distributed under the License is distributed on an "AS IS" BASIS, 
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+** See the License for the specific language governing permissions and 
+** limitations under the License.
+*/
+-->
+<resources>
+
+    <color name="primary_text_default_material_dark">#ffffffff</color>
+    <color name="primary_text_default_material_dark_disabled">#80ffffff</color>
+    <item name="disabled_alpha_material_dark" format="float" type="dimen">0.30</item>
+
+    <color name="gesture_color">#FFFFFFFF</color>
+
+    <drawable name="blue">#ff33b5e5</drawable>
+
+    <color name="hw_listview_normal_color">#00000000</color>
+    <color name="hw_listview_pressed_color">#e2e2e2</color>
+    <color name="btn_edit_normal_color">#888888</color>
+    <color name="btn_edit_pressed_color">#999999</color>
+    <color name="btn_top_normal_color">#bbbbbb</color>
+    <color name="btn_top_pressed_color">#aaaaaa</color>
+    <color name="btn_delete_normal_color">#ff0000</color>
+    <color name="btn_delete_pressed_color">#dd0000</color>
+
+    <!-- ActionBar的字体颜色 -->
+    <color name="ac_title">#ffffffff</color>
+    <color name="ac_subtitle">#80ffffff</color>
+    <color name="material_blue">#ff5677fc</color>
+    <color name="material_blue_med">#ffafbfff</color>
+    <color name="material_indigo">#ff3f51b5</color>
+    <color name="material_indigo_med">#ff9fa8da</color>
+    <color name="material_pink">#ffe91e63</color>
+    <color name="material_pink_med">#fff48fb1</color>
+    <color name="material_yellow">#ffffeb3b</color>
+    <color name="material_yellow_med">#fffff59d</color>
+    <color name="material_teal">#ff009688</color>
+    <color name="material_teal_med">#ff80cbc4</color>
+    <color name="material_purple">#ff9c27b0</color>
+    <color name="material_purple_med">#ffba68c8</color>
+    <color name="material_red">#ffe51c23</color>
+    <color name="material_red_med">#fff69988</color>
+    <color name="indicator_selected_color">#FF52B800</color>
+</resources>

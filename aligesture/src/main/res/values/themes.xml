@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.GestureNoTitleBar" parent="@style/Theme.HWDroid.Ali.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="Theme.Gesture" parent="@style/Theme.HWDroid.Ali.WithActionBar">
+
+        <!-- 消除ActionBar下的阴影线 -->
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+</resources>

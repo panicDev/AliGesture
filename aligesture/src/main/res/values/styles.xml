@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:fadingEdgeLength">0.0dip</item>
+        <item name="android:actionBarStyle">@style/ActionBarStyle</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <!-- <item name="android:actionBarDivider">@null</item> -->
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:actionMenuTextAppearance">
+            @android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Menu
+        </item>
+        <item name="android:actionMenuTextColor">@color/menu_item_color</item>
+        <item name="android:spinnerDropDownItemStyle">
+            @android:style/Widget.Holo.Light.DropDownItem.Spinner
+        </item>
+        <item name="android:actionOverflowButtonStyle">@style/CustomerOverflow</item>
+        <item name="android:homeAsUpIndicator">@drawable/abc_ic_ab_back_mtrl_am_alpha</item>
+        <item name="android:windowActionBarOverlay">true</item>
+
+        <!-- 消除ActionBar下的阴影线 -->
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="dialog" parent="@android:style/Theme.DeviceDefault.Light.Panel">
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+
+    <style name="toastDialog" parent="@android:style/Theme.DeviceDefault.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="mystyle" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/dialog_enter</item>
+        <item name="android:windowExitAnimation">@anim/dialog_exit</item>
+    </style>
+
+    <style name="main_menu_animstyle">
+        <item name="android:windowEnterAnimation">@anim/dialog_enter</item>
+        <item name="android:windowExitAnimation">@anim/dialog_exit</item>
+    </style>
+
+    <!-- add other -->
+    <style name="ActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:displayOptions">showTitle</item>
+        <item name="android:background">@color/material_teal</item>
+        <item name="android:backgroundStacked">@color/material_teal</item>
+        <item name="android:backgroundSplit">@color/material_teal</item>
+        <item name="android:actionModeBackground">@color/material_teal</item>
+        <item name="android:titleTextStyle">@style/ActionBarTitleStyle</item>
+        <item name="android:subtitleTextStyle">@style/ActionBarSubtitleStyle</item>
+    </style>
+
+    <style name="ActionBarSubtitleStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Subtitle.Inverse">
+        <item name="android:textColor">@color/ac_subtitle</item>
+    </style>
+
+    <style name="ActionBarTitleStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title.Inverse">
+        <item name="android:textColor">@color/ac_title</item>
+    </style>
+
+    <style name="CustomerOverflow" parent="@android:style/Widget.Holo.ActionButton.Overflow">
+        <item name="android:src">@drawable/abc_ic_menu_moreoverflow_mtrl_alpha</item>
+    </style>
+
+    <!--     <style name="Widget_Ali_CompoundButton_Switch">
+            <item name="android:track">@drawable/hw_switch_track</item>
+            <item name="android:thumb">@drawable/hw_switch_inner</item>
+            <item name="android:textOn">""</item>
+            <item name="android:textOff">""</item>
+            <item name="android:thumbTextPadding">12dip</item>
+            <item name="android:switchMinWidth">46dip</item>
+            <item name="android:switchPadding">16dip</item>
+        </style> -->
+
+    <style name="ButtonStyle" parent="@android:style/Widget.Holo.Light.Button">
+        <item name="android:background">@drawable/hw_btn_default</item>
+    </style>
+
+</resources>

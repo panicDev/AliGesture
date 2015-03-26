@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.way.gesture"
+    android:installLocation="internalOnly">
+
+
+    <!-- 拨打电话的权限 -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!-- 读取联系人权限 -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <!-- 发送短信权限 -->
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <!-- 读写系统设置权限 -->
+    <uses-permission android:name="android.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <!-- 浮动按钮 -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <!-- 解锁权限 -->
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+
+    <application
+        android:name="com.way.gesture.App"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Gesture">
+        <activity
+            android:name="com.way.gesture.activity.ActivityGestureList"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.way.gesture.activity.ActivityAddOption"
+            android:label="@string/optiontitle"
+            android:screenOrientation="portrait">
+            <!--<intent-filter />-->
+        </activity>
+        <activity
+            android:name="com.way.gesture.activity.ActivitySelectApp"
+            android:label="@string/selectapptitle"
+            android:screenOrientation="portrait">
+            <!--<intent-filter />-->
+        </activity>
+        <activity
+            android:name="com.way.gesture.activity.ActivityCreateGesture"
+            android:label="@string/gesturetitle"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow">
+            <!--<intent-filter />-->
+        </activity>
+
+        <service
+            android:name="com.way.gesture.GestureService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="gestureapp.way.gestureservice" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.way.gesture.activity.OverviewActivity"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:taskAffinity=""
+            android:theme="@style/toastDialog">
+            <intent-filter>
+                <action android:name="com.way.gesture.overview" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.acra.CrashReportDialog"
+            android:excludeFromRecents="true"
+            android:finishOnTaskLaunch="true"
+            android:launchMode="singleInstance"
+            android:theme="@style/Theme.HWDroid.Ali.Dialog" />
+    </application>
+
+</manifest>

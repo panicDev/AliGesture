@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="back">#ff333333</item>
+    <item type="drawable" name="front">#ff999999</item>
+    <item type="drawable" name="disable">#ff666666</item>
+</resources>

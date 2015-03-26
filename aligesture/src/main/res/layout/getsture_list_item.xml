@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="60.0dip">
+
+    <com.way.gesture.view.GestureImageView
+        android:id="@+id/gestureImageView"
+        android:layout_width="50.0dip"
+        android:layout_height="50.0dip"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="5.0dip"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginTop="5.0dip" />
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20.0dip"
+        android:layout_toRightOf="@id/gestureImageView"
+        android:gravity="left|center_vertical"
+        android:textColor="#ff111111"
+        android:textSize="18.0sp" />
+
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <com.way.widget.SlidingLeftViewGroup
+        android:id="@+id/mymultiViewGroup"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:id="@+id/item_ll"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/hw_list_selector_background"
+            android:descendantFocusability="blocksDescendants"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <include layout="@layout/getsture_list_item" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/item_append_ll"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/gestures_edit_gesture"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:background="@drawable/btn_top_selector"
+                android:text="@string/gestureEditGesture"
+                android:textColor="@android:color/white"></Button>
+
+            <Button
+                android:id="@+id/gestures_edit_name"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:background="@drawable/btn_edit_selector"
+                android:text="@string/gestureEditJob"
+                android:textColor="@android:color/white"></Button>
+
+            <Button
+                android:id="@+id/gestures_delete"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/btn_delete_selector"
+                android:text="@string/gestureDelete"
+                android:textColor="@android:color/white"></Button>
+        </LinearLayout>
+    </com.way.widget.SlidingLeftViewGroup>
+
+</RelativeLayout>

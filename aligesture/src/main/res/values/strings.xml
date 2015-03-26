@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Gesture</string>
+    <string name="gesture_main_title">Gesture action</string>
+    <string name="launchApp">Launch App</string>
+    <string name="callother">Call someone</string>
+    <string name="smstoother">Send sms to someone</string>
+    <string name="selectapptitle">Select app</string>
+    <string name="optiontitle">Create a gesture object</string>
+    <string name="gesturetitle">Gesture</string>
+    <string name="actiontitle">Action</string>
+    <string name="startapp">Start:</string>
+    <string name="gesturelisttitle">Custom gesture list</string>
+    <string name="gesturelistadd">Add new gesture</string>
+    <string name="gesturelistsendsms">Send sms to：</string>
+    <string name="gesturelistcallto">Make call with：</string>
+    <string name="gestureOK">OK</string>
+    <string name="gestureRedo">Draw more</string>
+    <string name="gestureDelete">Delete</string>
+    <string name="gestureDeleteMessage">Delete</string>
+    <string name="gestureCancel">Cancel</string>
+    <string name="gestureEdit">Edit</string>
+    <string name="gestureEditGesture">Edit gesture</string>
+    <string name="gestureEditJob">Edit job</string>
+    <string name="gestureMessageStart">This gesture object with“</string>
+    <string name="gestureMessageEnd">”Is the same</string>
+    <string name="gestureMessage2">More try</string>
+    <string name="gestureMessage3">This gesture is too short,more try</string>
+    <string name="drawgesture">Draw gesture</string>
+    <string name="drawgesture_info">"Slide up from the bottom of the device 
+ to editing gestures"</string>
+    <string name="drawgesture_bottom">The bottom of the device</string>
+    <string name="gesture_main_show_bar_title">Show notification</string>
+    <string name="gesture_main_show_bar_subtitle">Slide down on the desktop</string>
+    <string name="gesture_main_show_task_title">Show task</string>
+    <string name="gesture_main_show_task_subtitle">Slide up on the desktop</string>
+    <string name="gesture_main_gesture_sleep">Fast sleep</string>
+    <string name="gesture_main_gesture_sleep_subtitle">Double click on the desktop</string>
+    <string name="gesture_main_gesture_workspace_slide">Slide Jump</string>
+    <string name="gesture_main_gesture_workspace_slide_subtitle">Slide two fingers on the desktop</string>
+    <string name="gesture_main_gesture_title">Custom gestures</string>
+    <string name="gesture_main_gesture_subtitle1">"Start "</string>
+    <string name="gesture_main_gesture_subtitle2">" gestures"</string>
+    <string name="gesture_main_action_call_title">Somatosensory dial</string>
+    <string name="gesture_main_action_call_subtitle">Put phone near ear</string>
+    <string name="gesture_main_action_answer_title">Somatosensory answer</string>
+    <string name="gesture_main_action_answer_subtitle">Put phone near ear</string>
+    <string name="getsure_draw">Drawing Gesture</string>
+    <string name="getsure_option_info">No matching gestures, you can:</string>
+    <string name="getsure_option_info2">Matching the application does not exist, you can：</string>
+    <string name="getsure_option_redraw">Redraw</string>
+    <string name="getsure_option_add">Create</string>
+    <string name="getsure_switch_info">When turned on, you can slide the screen to start from the top left corner gesture</string>
+    <string name="getsure_help_info">Drawn the top left corner of the device screen to open the gesture panel drawn arbitrarily drawn handwriting will directly open the corresponding program</string>
+    <string name="getsure_help_not_rem">Do not remind</string>
+    <string name="getsure_help_menu">Help</string>
+    <string name="crash_dialog_title">Gesture has crashed</string>
+    <string name="crash_dialog_text">An unexpected error occurred forcing the application to stop. Please help us fix this by sending us error data, all you have to do is click OK.</string>
+    <string name="crash_dialog_comment_prompt">You might add your comments about the problem below:</string>
+    <string name="crash_dialog_ok_toast">Thank you !</string>
+    <string name="gesture_secure_toast">Please unlock first !</string>
+
+</resources>
