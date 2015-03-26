@@ -5,15 +5,15 @@ android {
     buildToolsVersion "21.1.1"
 
     defaultConfig {
-        applicationId "com.example.way.aligesture"
+        applicationId "com.way.aligesture"
         minSdkVersion 15
         targetSdkVersion 22
-        versionCode 1
-        versionName "1.0"
+        versionCode 20150326
+        versionName "1.0.0"
     }
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }

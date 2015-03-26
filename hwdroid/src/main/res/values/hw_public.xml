@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <eat-comment />
     <!-- @aui_open@
+    <eat-comment />
       <public id="0x5080000" name="hw_actionbar_back_icon" type="drawable" />
       <public id="0x5080001" name="hw_actionbar_option_icon_down" type="drawable" />
       <public id="0x5080002" name="hw_actionbar_option_icon_up" type="drawable" />
