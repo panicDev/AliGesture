@@ -1,7 +1,8 @@
 # AliGesture
 Android平台手势识别，比Android原生的GestureOverlayView识别率更高，更实用。支持一些简单的手势。可以快捷启动app、拨号、发短信。
 
-
+## 代码结构
+本项目基于Android Studio开发，[acra](https://github.com/ACRA/acra "acra")是有名的Application Crash Reports for   Android，本项目引用作为异常处理报告库，`hwdroid`也是一个资源库，主要代码在`aligesture`目录下。
 
 ## 联系我
 
