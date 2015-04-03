@@ -8,8 +8,8 @@ android {
         applicationId "com.way.aligesture"
         minSdkVersion 15
         targetSdkVersion 22
-        versionCode 20150326
-        versionName "1.0.0"
+        versionCode 20150403
+        versionName "1.0.1"
     }
     buildTypes {
         release {

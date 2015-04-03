@@ -10,6 +10,7 @@ import android.view.MotionEvent;
 import android.view.WindowManager;
 import android.widget.LinearLayout;
 
+import com.way.gesture.GestureService;
 import com.way.gesture.R;
 
 public class FloatWindowSmallView extends LinearLayout {
@@ -142,7 +143,9 @@ public class FloatWindowSmallView extends LinearLayout {
 //		Intent appIntent = new Intent("com.way.gesture.overview");
 //		appIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_RESET_TASK_IF_NEEDED);
 //		getContext().startActivity(appIntent);
-        Intent i = new Intent("gestureapp.way.gestureservice");
+        //Intent i = new Intent("gestureapp.way.gestureservice");
+        Intent i = new Intent(getContext(), GestureService.class);
+        i.setAction("gestureapp.way.gestureservice");
         i.putExtra("time", System.currentTimeMillis());
         getContext().startService(i);
     }
